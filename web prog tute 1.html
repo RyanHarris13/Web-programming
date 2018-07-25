@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <!-- meta http-equiv="X-Frame-Options" content="deny" -->
+    <title>My First Webpage</title>
+
+    <!-- We will cover style later. Skip down to the body tag -->
+    <link id='wireframecss' type="text/css" rel="stylesheet" href="wireframe.css"/>
+    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css" disabled>
+    <script src='wireframe.js'></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
+      <div><img src='../media/RMIT-Logo.png' alt='RMIT University logo' height=80 />Ryan Harris
+      </div>
+    </header>
+
+    <nav>
+      Assignments:
+      <!-- link locations: relative to current directory -->
+      <ul>
+        <li><a href="a2/index.php" target="_blank">A2</a></li>
+        <li><a href="a3/index.php" target="_blank">A3</a></li>
+      </ul> |
+      <!-- link locations: relative to e54061's root web directory -->
+      <a href="/~e54061/wp/lectures" target="_blank">Lectures 0 - 11</a> |
+      <a href="/~e54061/secure" target="_blank">Secure Resources Area</a> | 
+      <!-- link location: absolute -->
+      <a href='' target="_blank">WP Public</a>
+    </nav>
+
+    <main>
+      <article id='about-me'>
+        <h2>About me</h2>
+        <p>
+          <img src='../media/avatar.png' width='200' alt='my photo' />
+        </p>
+        <details open>
+          <summary>read more ...</summary>
+            <table id="more-about-me">
+              <tr>
+                <th>Have you any programming or web design experience?</th>
+                <td>Only a small amount of experience, during high school i did IT in about year 10. This was pretty simple and basic. I have also completed the IT course in my first semester of UNI, this wasmore advanced and dealt with servers and jazz</td>
+              </tr>
+              <tr>
+                <th>Do you see yourself as a programmer or designer, or both?</th>
+                <td>I think a bit of both, not much design in terms of a webpage though</td>
+              </tr>
+              <tr>
+                <th>What has brought you to this course at RMIT?</th>
+                <td>I am completing the Bachelor of IT, this class is compulsory in this. However, i have always enjoyed working with compters and wanted to learn more about them.</td>
+              </tr>
+              <tr>
+                <th>What are you hoping to get out of the course?</th>
+                <td>I am hoping to get an understanding of how a webpage works as well as the basics of web programming.</td>
+              </tr>
+              <tr>
+                <th>Assignments allow for individual or paried work. What strengths do you have and what strengths would you like your assignment partner to have?</th>
+                <td>My strengths would be my ability to learn and adapt to new scenarios. the qualities i would look for in a partner would be a like minds as well as the ability to allow us to stay on track and complete work reliably</td>
+              </tr>
+              <tr>
+                <th>What websites do you use the most? (NB: "family friendly" !)</th>
+                <td>Probably Youtube, or netflix, sometimes facebook but rarely</td>
+              </tr>
+              <tr>
+                <th>Do you have any interests or hobbies?</th>
+                <td>My hobbies would include video gaming, and reading books</td>
+              </tr>
+            </table>
+        </details>
+      </article>
+      <aside>
+        <div align='center'>Deprecated code sample.</div>
+      </aside>
+    </main>
+
+    <footer>
+      &copy; Insert your name here
+      <script>
+        document.write(new Date().getFullYear());
+      </script>.
+      Put footer info and other <a href=' '>secondary links</a> here (but only if you wish to). <button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button>
+    </footer>
+    
+  </body>
+</html>
