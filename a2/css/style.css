@@ -13,9 +13,10 @@ header img {
   margin-right: 40px;
 }
 
-nav,
+nav
 footer {
   padding: 10px;
+   
 }
 
 nav ul {
@@ -23,6 +24,7 @@ nav ul {
   margin:0.2em;
   display: inline-block;
   list-style: none;
+border-style: solid;
 }
 
 nav ul li {

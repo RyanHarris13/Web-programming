@@ -30,8 +30,19 @@
       </nav>
 
     <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
+        <h2>Home</h2>
+      <article id='Front page things'>
+        <tr>
+        <td>Product:</td>
+        <td>Description: </td>
+         </tr>
+          
+          <tr>
+          <tr>Exit cleans</tr>
+              <tr>Bond return cleans</tr>
+              <tr>Entry cleans</tr>
+          </tr>
+          
         <img src='../../media/' alt='' />
       </article>
     </main>
