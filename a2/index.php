@@ -31,18 +31,25 @@
 
     <main>
         <h2>Home</h2>
-      <article id='Front page things'>
+        <table>
         <tr>
-        <td>Product:</td>
-        <td>Description: </td>
-         </tr>
-          
-          <tr>
-          <tr>Exit cleans</tr>
-              <tr>Bond return cleans</tr>
-              <tr>Entry cleans</tr>
-          </tr>
-          
+    <th>Products</th>
+    <th>Description</th> 
+    
+  </tr>
+  <tr>
+    <td>Exit cleans</td> 
+  </tr>
+            <tr>
+                <td>Bond return cleans</td>
+            </tr>
+            <tr> 
+                <td>Entry cleans</td>
+            </tr>
+    </table>
+        
+      <article id='Front page things'>
+
         <img src='../../media/' alt='' />
       </article>
     </main>
