@@ -17,16 +17,17 @@
           <p>Exit & bond cleaning.</p></div>
     </header>
 
-    <nav>
+   <nav>
       <div>Navigation:
-          
-        <a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's index page</a>
-          <br>
-        <a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's index page</a>
+          <tr>
+            <th><a href="index.php">Home</a></th>
+            <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
+            <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
+            <th><a href="ProductsPage.php" >Products page</a></th>
+            <th><a href="MembersLogin.php" >Members login</a></th>
+          </tr>
         </div>
-        
-    </nav>
-
+      </nav>
     <main>
       <article id='Website Under Construction'>
     <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
