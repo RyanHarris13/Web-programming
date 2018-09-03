@@ -23,8 +23,8 @@
             <th><a href="index.php">Home</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
-            <th><a href="ProductsPage.php" target="_blank">Products page</a></th>
-            <th><a href="MembersLogin.php" target="_blank">Members login</a></th>
+            <th><a href="ProductsPage.php" >Products page</a></th>
+            <th><a href="MembersLogin.php" >Members login</a></th>
           </tr>
         </div>
       </nav>

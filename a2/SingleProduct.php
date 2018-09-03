@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Members login</title>
+    <title>Exit clean</title>
     
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
@@ -17,7 +17,7 @@
           <p>Exit & bond cleaning.</p></div>
     </header>
 
-    <nav>
+   <nav>
       <div>Navigation:
           <tr>
             <th><a href="index.php">Home</a></th>
@@ -28,7 +28,6 @@
           </tr>
         </div>
       </nav>
-
     <main>
       <article id='Website Under Construction'>
     <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
