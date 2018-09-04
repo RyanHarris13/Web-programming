@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Exit clean</title>
+    <title>Exit Cleaning</title>
     
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
@@ -14,23 +14,27 @@
 
     <header>
       <div><img src='../../media/exit-and-bond-cleaning-wantirna-south-3152-logo.gif' alt='ExitBond&Cleaning' />
-          <p>Exit & bond cleaning.</p></div>
+         
     </header>
 
-   <nav>
-      <div>Navigation:
+    <nav>
+      <div>
           <tr>
             <th><a href="index.php">Home</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
-            <th><a href="ProductsPage.php" >Products page</a></th>
-            <th><a href="MembersLogin.php" >Members login</a></th>
+            <th><a href="ProductsPage.php" >Services and Pricing</a></th>
+            <th><a href="Login.php" >Members login</a></th>
           </tr>
         </div>
       </nav>
+
     <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
+        <h2>Exit Cleaning:</h2>
+        
+        
+      <article id='Front page things'>
+
         <img src='../../media/' alt='' />
       </article>
     </main>

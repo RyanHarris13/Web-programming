@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Assignment 2</title>
+      <title>Login</title>
     
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
@@ -14,7 +14,7 @@
 
     <header>
       <div><img src='../../media/exit-and-bond-cleaning-wantirna-south-3152-logo.gif' alt='ExitBond&Cleaning' />
-      
+         
     </header>
 
     <nav>
@@ -30,25 +30,48 @@
       </nav>
 
     <main>
-        <h2>Home</h2>
-        <table>
-        <tr>
-    <th>All Services</th>
-    <th>Description</th> 
-        </tr>
-            <tr>
-                <td><a href="ExitCleaning.php" >Exit Cleaning</a></td> 
-                <td>Description of this prodyct in short</td>
-            </tr>
-            <tr>
-                <td>Bond return cleans</td>
-                <td>Description of this prodyct in short</td>
-            </tr>
-            <tr> 
-                <td>Entry cleans</td>
-                <td>Description of this prodyct in short</td>
-            </tr>
-    </table>
+        <h2>Login Page</h2>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
         
       <article id='Front page things'>
 
