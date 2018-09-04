@@ -38,14 +38,16 @@
             </tr>
             <tr>
                 <! Need to restrict the width of each clean>
-                <td>Our moving, end of lease clean. This takes the hard work out of a large cleaning job, through our expert one-time cleaners.</td>
+                <td>Our moving, end of lease clean. This takes the hard work out of a large cleaning job, through our expert one-time cleaners.<img src='../../media/moving.jpg'></td>
                 <!Will have a buttun for BOOK NOW underneath description, as well as what the service will include>
+                <td>This bond return clean will have your home spick and span for you to get that bond back! our dedicated cleaners will clean any stains or blemishes!</td>
+                <td>New place looking a bit worn? our experienced cleaners will get you that " new home " smel as soon as possible !</td>
             </tr>
         </table>
         
       <article id='Front page things'>
 
-        <img src='../../media/' alt='' />
+       
       </article>
     </main>
 
