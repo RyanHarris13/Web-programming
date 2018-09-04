@@ -23,7 +23,7 @@
             <th><a href="index.php">Home</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
-            <th><a href="ProductsPage.php" >Products page</a></th>
+            <th><a href="ProductsPage.php" >Services and Pricing</a></th>
             <th><a href="MembersLogin.php" >Members login</a></th>
           </tr>
         </div>
@@ -33,18 +33,20 @@
         <h2>Home</h2>
         <table>
         <tr>
-    <th>Products</th>
+    <th>All Services</th>
     <th>Description</th> 
-    
-  </tr>
-  <tr>
-    <td>Exit cleans</td> 
-  </tr>
+        </tr>
+            <tr>
+                <td>Exit cleans</td> 
+                <td>Description of this prodyct in short</td>
+            </tr>
             <tr>
                 <td>Bond return cleans</td>
+                <td>Description of this prodyct in short</td>
             </tr>
             <tr> 
                 <td>Entry cleans</td>
+                <td>Description of this prodyct in short</td>
             </tr>
     </table>
         
