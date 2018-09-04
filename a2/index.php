@@ -15,7 +15,8 @@
     <header>
       <div><img src='../../media/exit-and-bond-cleaning-wantirna-south-3152-logo.gif' alt='ExitBond&Cleaning' />
       
-    </header>
+   </div>
+      </header>
 
     <nav>
       <div>
@@ -23,7 +24,7 @@
             <th><a href="index.php">Home</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
-            <th><a href="ProductsPage.php" >Services and Pricing</a></th>
+            <th><a href="services.php" >Services and Pricing</a></th>
             <th><a href="login.php" >Members login</a></th>
           </tr>
         </div>
@@ -31,24 +32,7 @@
 
     <main>
         <h2>Home</h2>
-        <table>
-        <tr>
-    <th>All Services</th>
-    <th>Description</th> 
-        </tr>
-            <tr>
-                <td><a href="ExitCleaning.php" >Exit Cleaning</a></td> 
-                <td>Description of this prodyct in short</td>
-            </tr>
-            <tr>
-                <td>Bond return cleans</td>
-                <td>Description of this prodyct in short</td>
-            </tr>
-            <tr> 
-                <td>Entry cleans</td>
-                <td>Description of this prodyct in short</td>
-            </tr>
-    </table>
+        <!mix of pictures and paragraphs, explain the clients background, history and focus
         
       <article id='Front page things'>
 

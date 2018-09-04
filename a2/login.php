@@ -15,15 +15,15 @@
     <header>
       <div><img src='../../media/exit-and-bond-cleaning-wantirna-south-3152-logo.gif' alt='ExitBond&Cleaning' />
          
-    </header>
+        </div>
+      </header>
 
     <nav>
       <div>
           <tr>
             <th><a href="index.php">Home</a></th>
-            <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
-            <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
-            <th><a href="ProductsPage.php" >Services and Pricing</a></th>
+           
+            <th><a href="services.php" >Services and Pricing</a></th>
             <th><a href="login.php" >Members login</a></th>
           </tr>
         </div>
@@ -35,10 +35,10 @@
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="close.png" alt="close" class="close">
+      <img src="" alt="close" class="close">
     </div>
 
     <div class="container">
