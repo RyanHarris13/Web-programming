@@ -24,7 +24,7 @@
             <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
             <th><a href="ProductsPage.php" >Services and Pricing</a></th>
-            <th><a href="Login.php" >Members login</a></th>
+            <th><a href="login.php" >Members login</a></th>
           </tr>
         </div>
       </nav>

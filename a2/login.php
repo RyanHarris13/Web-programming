@@ -24,7 +24,7 @@
             <th><a href="https://titan.csit.rmit.edu.au/~s3717184/wp/">Caleb's page</a></th>
             <th><a href="https://titan.csit.rmit.edu.au/~s3719229/wp/">Ryan's page</a></th>
             <th><a href="ProductsPage.php" >Services and Pricing</a></th>
-            <th><a href="Login.php" >Members login</a></th>
+            <th><a href="login.php" >Members login</a></th>
           </tr>
         </div>
       </nav>
@@ -38,7 +38,7 @@
   <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="close.png" alt="close" class="close">
     </div>
 
     <div class="container">
@@ -56,7 +56,7 @@
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php">password?</a></span>
+      <span class="psw">Forgot <a href="">password?</a></span>
     </div>
   </form>
 </div>
