@@ -32,7 +32,10 @@
 
     <main>
         <h2>Home</h2>
-        <!mix of pictures and paragraphs, explain the clients background, history and focus
+        <!mix of pictures and paragraphs, explain the clients background, history and focus>
+        <h3>Our Background:</h3>
+        <h3>Our history:</h3>
+        <h3>Our focus:</h3>
         
       <article id='Front page things'>
 
