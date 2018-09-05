@@ -70,13 +70,24 @@ head {
 }
 
 nav { 
-    background-color: lightskyblue
+    background-color: lightskyblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 10%;
+
+    border: black;
+    border-style: inset;
 
 }
 
 li {
 
     display: inline;
+    
+
 
 }
 
