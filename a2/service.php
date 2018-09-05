@@ -36,6 +36,19 @@
       <article id='Front page things'>
 
         <img src='../../media/ExitClean.jpg' alt='empty house picture' />
+          <p>Quantity picker Form for rooms</p>
+          <p>Drop down: house size </p>
+          <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="get">
+          <input type="" placeholder="0" name="QuantityPicker">
+              <br>
+            <select name="Clean detail">
+    <option value="Fast">Fast and light</option>
+    <option value="moderate">Moderate</option>
+    <option value="thorough" selected>Thorough</option>
+    <option value="meticulous">Meticulous</option>
+  </select>
+              <button type="submit">Submit</button>
+          </form>
       </article>
     </ExitMain>
 
