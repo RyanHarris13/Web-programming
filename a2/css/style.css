@@ -82,7 +82,7 @@ ul {
 }
 
 li {
-    float: center;
+    float: left;
 
 }
 
@@ -100,12 +100,17 @@ li a {
 
 }
 
-img {
+main img {
     width: 250px;
     padding: 5px;
 
 }
 
+ExitMain img {
+    width: 500px;
+    padding: 5px;
+
+}
 
 body {
     background-color: rgb(28, 86, 105);
