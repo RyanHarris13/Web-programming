@@ -89,13 +89,10 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 10px 50px;
-    border: rgb(47, 45, 194);
+    padding: 3vh 5vw;
+    border: rgb(0, 0, 0);
     border-style: inset;
     color: white;
-
-    size: 32px;
-
 
 
 }
@@ -113,7 +110,7 @@ ExitMain img {
 }
 
 body {
-    background-color: rgb(28, 86, 105);
+    background-color: lightskyblue;
 }
 
 h1 {
@@ -129,7 +126,7 @@ p.one {
 }
 
 li a:hover {
-    background-color: rgb(71, 69, 243);
+    background-color: rgb(70, 68, 190);
 
 }
 
