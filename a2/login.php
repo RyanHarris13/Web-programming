@@ -20,12 +20,14 @@
 
     <nav>
       <div>
-          <tr>
-            <th><a href="index.php">Home</a></th>
+          <ul>
+
+            <li><a href="index.php">Home</a></li>
            
-            <th><a href="services.php" >Services and Pricing</a></th>
-            <th><a href="login.php" >Members login</a></th>
-          </tr>
+            <li><a href="services.php" >Services and Pricing</a></li>
+            <li><a href="login.php" >Members login</a></li>
+
+          </ul>
         </div>
       </nav>
 
