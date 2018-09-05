@@ -36,18 +36,25 @@
       <article id='Front page things'>
 
         <img src='../../media/ExitClean.jpg' alt='empty house picture' />
-          <p>Quantity picker Form for rooms</p>
-          <p>Drop down: house size </p>
-          <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="get">
+          <description>
+          <p>With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it. This package is best for people who want to leave on good terms with whoever is in your house after, or landlords with some particularily messy tenants.</p>
+              
+          
+          </description>
+          
+          
+          <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
+              <p>Quantity picker Form for rooms</p>
           <input type="" placeholder="0" name="QuantityPicker">
               <br>
+              <p>Drop down: Cleaning type </p>
             <select name="Clean detail">
     <option value="Fast">Fast and light</option>
-    <option value="moderate">Moderate</option>
     <option value="thorough" selected>Thorough</option>
     <option value="meticulous">Meticulous</option>
-  </select>
-              <button type="submit">Submit</button>
+    <option value="moderate">Moderate</option>
+            </select>
+              <button type="submit">Buy</button>
           </form>
       </article>
     </ExitMain>

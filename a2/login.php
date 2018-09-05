@@ -33,7 +33,7 @@
 
     <main>
         <h2>Login Page</h2>
-       <form action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="get" target="_blank">
+       <form action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post" target="_blank">
   <div class="imgcontainer">
     <img src="../../media/img_avatar2.png" alt="Avatar" class="avatar">
   </div>
