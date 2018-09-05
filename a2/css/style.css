@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
@@ -60,3 +61,42 @@ span.psw {
        width: 100%;
     }
 }
+=======
+/* Insert your styles here */
+
+
+head {
+    background-color: rgb(48, 39, 42)
+}
+
+nav { 
+    background-color: lightskyblue
+
+}
+
+li {
+
+    display: inline;
+
+}
+
+
+body {
+    background-color: rgb(28, 86, 105);
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+p.one {
+    border-style: inset;
+    border-width: 20px
+    
+
+}
+
+
+
+>>>>>>> Stashed changes
