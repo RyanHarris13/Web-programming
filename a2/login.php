@@ -40,10 +40,10 @@
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="email" placeholder="Enter Email" name="email" required>
 
-    <label for="pword"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="pword" required>
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
         
     <button type="submit">Login</button>
     <label>
