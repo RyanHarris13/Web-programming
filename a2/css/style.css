@@ -114,8 +114,21 @@ body {
 }
 
 h1 {
-    color: navy;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
+}
+
+form {
+    color: white;
+    background-color: black;
+    size: 20px;
+    
+
+}
+option {
+    color: white;
+    size: 20px;
+
 }
 
 p.one {
@@ -129,5 +142,7 @@ li a:hover {
     background-color: rgb(70, 68, 190);
 
 }
+
+
 
 
