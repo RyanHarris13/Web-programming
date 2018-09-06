@@ -46,9 +46,10 @@
           
           </description>
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
+              <input type="text" name="id" value="SRVC001"
               <p>Option: Cleaning type </p>
               <p>Time, level of cleaning detail and price go up the further down the list</p>
-            <select name="Option: Clean detail">
+            <select name="option">
                 <option value="Fast">Fast and light</option>
                 <option value="thorough" selected>Thorough</option>
                 <option value="meticulous">Meticulous</option>
@@ -68,7 +69,7 @@
       <button class="minus-btn" type="button" name="button">
         <img src="../../media/inus-button.png" alt="" />
       </button>
-        <input type="text" name="RoomAmt" value="1">
+        <input type="text" name="qty" value="1">
         <button class="plus-btn" type="button" name="button">
         <img src="../../media/dd-button.png" alt="" />
       </button>
