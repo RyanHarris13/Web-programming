@@ -31,6 +31,7 @@ button {
     width: 100%;
 }
 
+
 button:hover {
     opacity: 0.8;
 }
@@ -40,7 +41,45 @@ button:hover {
     padding: 10px 18px;
     background-color: #f44336;
 }
+<!testing>
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+
+}
+.plus-btn img {
+  margin-top: 2px;
+   
+}
+button:focus,
+input:focus {
+  outline:0;
+}
+
+
+
+<!end test>
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
@@ -131,7 +170,7 @@ h1 {
 
 form {
     color: white;
-    background-color: black;
+    background-color: #7c7287;
     size: 20px;
     
 
@@ -268,7 +307,7 @@ h3 {
 }
 
 .headerimg {
-    background-image: linear-gradient(rgba(107, 167, 160, 0.5), rgba(107, 167, 160, 0.5)), url('');
+    background-image: linear-gradient(rgba(107, 167, 160, 0.5), rgba(107, 167, 160, 0.5)), url('../../media/logo.png');
     height: 10%;
     background-position: center;
     background-repeat: no-repeat;

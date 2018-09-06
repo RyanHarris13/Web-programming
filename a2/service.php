@@ -8,6 +8,7 @@
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
     <script src='../wireframe.js'></script>
+      <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
   </head>
 
   <body>
@@ -18,15 +19,15 @@
             </header>
           </div>
           
-      </header>
+    
 
     <nav>
       <div>
           <ul>
 
-              <li><a href="services.html" >Services and Pricing</a></li>
-              <li><a href="login.html" >Members login</a></li>
-              <li><a href="index.html">Home</a></li>
+             <li><a href="login.php" >Members login</a></li>
+            <li><a href="services.php" >Services and Pricing</a></li>
+            <li><a href="index.php">Home</a></li>
 
           </ul>
         </div>
@@ -44,24 +45,79 @@
               
           
           </description>
-          
-          
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
-              <p>Quantity picker Form for rooms</p>
-          <input type="" placeholder="0" name="QuantityPicker">
-              <br>
-              <p>Drop down: Cleaning type </p>
-            <select name="Clean detail">
-    <option value="Fast">Fast and light</option>
-    <option value="thorough" selected>Thorough</option>
-    <option value="meticulous">Meticulous</option>
-    <option value="moderate">Moderate</option>
+              <p>Option: Cleaning type </p>
+              <p>Time, level of cleaning detail and price go up the further down the list</p>
+            <select name="Option: Clean detail">
+                <option value="Fast">Fast and light</option>
+                <option value="thorough" selected>Thorough</option>
+                <option value="meticulous">Meticulous</option>
+                <option value="moderate">Moderate</option>
             </select>
-              <button type="submit">Buy</button>
+         <div class="item">
+    <p>Quantity picker Form for rooms</p>
+    <div class="image">
+      <img src="" alt="" />
+    </div>
+ 
+    <div class="description">
+      
+    </div>
+ 
+    <div class="quantity">
+      <button class="minus-btn" type="button" name="button">
+        <img src="../../media/inus-button.png" alt="" />
+      </button>
+        <input type="text" name="RoomAmt" value="1">
+        <button class="plus-btn" type="button" name="button">
+        <img src="../../media/dd-button.png" alt="" />
+      </button>
+      
+      
+    </div>
+ 
+  
+  </div>
+
+              <button type="submit">Purchase</button>
           </form>
+          
       </article>
     </ExitMain>
+<script type="text/javascript">
+      $('.minus-btn').on('click', function(e) {
+    		e.preventDefault();
+    		var $this = $(this);
+    		var $input = $this.closest('div').find('input');
+    		var value = parseInt($input.val());
 
+    		if (value > 1) {
+    			value = value - 1;
+    		} else {
+    			value = 0;
+    		}
+
+        $input.val(value);
+
+    	});
+
+    	$('.plus-btn').on('click', function(e) {
+    		e.preventDefault();
+    		var $this = $(this);
+    		var $input = $this.closest('div').find('input');
+    		var value = parseInt($input.val());
+
+    		if (value < 100) {
+      		value = value + 1;
+    		} else {
+    			value =100;
+    		}
+
+    		$input.val(value);
+    	});
+
+      
+    </script>
     <div class='bot'>
         <footer>
           <div>&copy;<script>

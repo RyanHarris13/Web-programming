@@ -21,9 +21,9 @@
       <div>
           <ul>
 
-              <li><a href="services.html" >Services and Pricing</a></li>
-              <li><a href="login.html" >Members login</a></li>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="login.php" >Members login</a></li>
+            <li><a href="services.php" >Services and Pricing</a></li>
+            <li><a href="index.php">Home</a></li>
 
           </ul>
         </div>
@@ -46,7 +46,9 @@
               Pellentesque eget volutpat ante, ut venenatis erat. Fusce vel finibus lectus. Suspendisse porttitor accumsan vulputate. 
               Vivamus mollis purus eget magna gravida, ac egestas enim consectetur.
             </p2> 
-            <button type="">Read More:</button>
+            <form action ="service.php" >
+                <button type="Submit">Read More:</button>
+              </form>
           </div>
     
           <div class="return">
@@ -59,8 +61,9 @@
               Pellentesque eget volutpat ante, ut venenatis erat. Fusce vel finibus lectus. Suspendisse porttitor accumsan vulputate.
               Vivamus mollis purus eget magna gravida, ac egestas enim consectetur.  
             </p2> 
-            <button type="">Read More:</button>
-    
+              <form action ="service.php" >
+            <button type="Submit">Read More:</button>
+              </form>
           </div>
     
           <div class="blah">
