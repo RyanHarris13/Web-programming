@@ -11,18 +11,13 @@ input[type=email], input[type=password] {
 }
 
 button {
-<<<<<<< HEAD
+
     background-color:  #4264c0;
-=======
-<<<<<<< Updated upstream
     background-color: lightskyblue;
-=======
 
     background-color: lightskyblue;
     background-color: #36558F;
 
->>>>>>> Stashed changes
->>>>>>> 5653ab3fceb7b7bcb3c8f5c46a29abd22b765ee2
     color: white;
     padding: 14px 20px;
     margin: 20px 0;
@@ -105,7 +100,7 @@ li a {
 
 header img {
     width: 200px;
-    padding: 5px; 
+
 }
 
 main img {
@@ -160,7 +155,7 @@ li a:hover {
     width: 300px;
     height: 200px;
     z-index: 15;
-    top: 35%;
+    top: 40%;
     left: 47%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -171,7 +166,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 50%;
+    top: 55%;
     left: 15%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -182,7 +177,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 50%;
+    top: 55%;
     left: 45%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -192,7 +187,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 50%;
+    top: 55%;
     left: 75%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -268,12 +263,3 @@ h3 {
 
 }
 
-.headerimg {
-    background-image: linear-gradient(rgba(107, 167, 160, 0.5), rgba(107, 167, 160, 0.5)), url('../../media/logo.png');
-    height: 10%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-  }
