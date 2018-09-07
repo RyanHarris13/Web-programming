@@ -34,16 +34,20 @@ input[type=number]::-webkit-inner-spin-button {
         </div>
       </nav>
 
-    <div class="ExitMain">
+    <div class='exot'>
         <h2>Exit Cleaning:</h2>
-        
+    </div>
         
       <article id='Front page things'>
 
         <img src='../../media/ExitClean.jpg' alt='empty house picture' />
 
           <div class='sidetext'>
-          <p>With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it. This package is best for people who want to leave on good terms with whoever is in your house after, or landlords with some particularily messy tenants.</p>
+          <p>With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it.
+             This package is best for people who want to leave on good terms with whoever is in your house after, 
+             or landlords with some particularily messy tenants. This clean will make sure that you are able to sell / rent 
+             the house to any new prospectors. This clean covers all rooms, bathrooms and the kitchen in great detail. Full
+             steam cleaned carpets and more.</p>
               
           
           </div>
@@ -63,13 +67,15 @@ input[type=number]::-webkit-inner-spin-button {
       <img src="" alt="" />
     </div>
  
-   
+    <div class="description">
+      
+    </div>
  
-  
+   <p class='quantity'>Quantity</p>
                   <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
                   <input class='number' id='qty' type='text' name='qty' value='0'>
                   <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
-              
+                  <br>
 </div>
 <input id='submit' type="submit" value="Submit" disabled>
 
@@ -80,7 +86,7 @@ input[type=number]::-webkit-inner-spin-button {
           </form>
           
       </article>
-    </div>
+    </ExitMain>
 <script>
       function myAdd() {
           var num = document.getElementById("qty");
@@ -111,7 +117,7 @@ input[type=number]::-webkit-inner-spin-button {
           }
       }
       </script>
-    <div class='bot'>
+    <div class='bot2'>
        <footer>
             <br>
           <div>&copy;<script>

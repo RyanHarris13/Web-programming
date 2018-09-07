@@ -347,7 +347,11 @@ color: #131515;
 
 }
 
+option {
+color: black;
 
+
+}
 .sidetext {
     position: absolute;
     width: 40%;
