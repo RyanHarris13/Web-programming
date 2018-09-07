@@ -11,18 +11,13 @@ input[type=email], input[type=password] {
 }
 
 button {
-<<<<<<< HEAD
+
     background-color:  #4264c0;
-=======
-<<<<<<< Updated upstream
     background-color: lightskyblue;
-=======
 
     background-color: lightskyblue;
     background-color: #36558F;
 
->>>>>>> Stashed changes
->>>>>>> 5653ab3fceb7b7bcb3c8f5c46a29abd22b765ee2
     color: white;
     padding: 14px 20px;
     margin: 20px 0;
@@ -105,7 +100,12 @@ li a {
 
 header img {
     width: 200px;
+<<<<<<< HEAD
     
+=======
+
+}
+>>>>>>> 96354ecb37eab40029bedd54e8f8fe90f309c3f2
 
 main img {
     width: 250px;
@@ -159,7 +159,7 @@ li a:hover {
     width: 300px;
     height: 200px;
     z-index: 15;
-    top: 35%;
+    top: 40%;
     left: 47%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -170,7 +170,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 50%;
+    top: 55%;
     left: 15%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -181,7 +181,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 50%;
+    top: 55%;
     left: 45%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -191,7 +191,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 50%;
+    top: 55%;
     left: 75%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -267,4 +267,7 @@ h3 {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96354ecb37eab40029bedd54e8f8fe90f309c3f2
