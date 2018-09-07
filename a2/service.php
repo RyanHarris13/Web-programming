@@ -19,16 +19,11 @@ input[type=number]::-webkit-inner-spin-button {
 
   <body>
 
-      <div class='headerimg'>
-          <header>
-            <img src='../../media/logo.png' alt='ExitBond&Cleaning' /> 
-            </header>
-          </div>
-          
-    
-
     <nav>
       <div>
+        <h1> 
+          Exit and Bond Cleaning
+        </h1>
           <ul>
 
              <li><a href="login.php" >Members login</a></li>
