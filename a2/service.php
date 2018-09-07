@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang='en'>
+    <style>
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+</style>
   <head>
     <meta charset="utf-8">
     <title>Exit Cleaning</title>
@@ -46,7 +52,7 @@
           
           </description>
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
-              <input type="text" name="id" value="SRVC001"
+              <input type="hidden" name="id" value="SRVC001">
               <p>Option: Cleaning type </p>
               <p>Time, level of cleaning detail and price go up the further down the list</p>
             <select name="option">
@@ -65,68 +71,54 @@
       
     </div>
  
-    <div class="quantity">
-      <button class="minus-btn" type="button" name="button">
-        <img src="../../media/inus-button.png" alt="" />
-      </button>
-        <input type="text" name="qty" value="1">
-        <button class="plus-btn" type="button" name="button">
-        <img src="../../media/dd-button.png" alt="" />
-      </button>
-      
-      
-    </div>
- 
-  
-  </div>
+   <p class='quantity'>Quantity</p>
+                  <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
+                  <input class='number' id='qty' type='text' name='qty' value='0'>
+                  <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
+                  <br>
+</div>
+<input id='submit' type="submit" value="Submit" disabled>
 
-              <button type="submit">Purchase</button>
+      
+      
+    
+
           </form>
           
       </article>
     </ExitMain>
-<script type="text/javascript">
-      $('.minus-btn').on('click', function(e) {
-    		e.preventDefault();
-    		var $this = $(this);
-    		var $input = $this.closest('div').find('input');
-    		var value = parseInt($input.val());
-
-    		if (value > 1) {
-    			value = value - 1;
-    		} else {
-    			value = 0;
-    		}
-
-        $input.val(value);
-
-    	});
-
-    	$('.plus-btn').on('click', function(e) {
-    		e.preventDefault();
-    		var $this = $(this);
-    		var $input = $this.closest('div').find('input');
-    		var value = parseInt($input.val());
-
-    		if (value < 100) {
-      		value = value + 1;
-    		} else {
-    			value =100;
-    		}
-
-    		$input.val(value);
-    	});
-
-      
-    </script>
+<script>
+      function myAdd() {
+          var num = document.getElementById("qty");
+          var int = num.value;
+          int++;
+        num.value = int;
+        if (document.getElementById('qty').value == "0") {
+            document.getElementById('submit').isValue = false;
+          } else {
+            document.getElementById('submit').isValue = true;
+          }
+      }
+      function mySubtract() {
+          var num = document.getElementById("qty");
+          var int = num.value;
+          if (int > 0) {
+          int--;
+        num.value = int;
+          } else {
+          num.value = 0;
+          }
+      }
+      function myZero() {
+          if (document.getElementById('qty').value == 0) {
+            document.getElementById('submit').disabled = true;
+          } else {
+            document.getElementById('submit').disabled = false;
+          }
+      }
+      </script>
     <div class='bot'>
-        <footer>
-          <div>&copy;<script>
-            document.write(new Date().getFullYear());
-          </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A2-s3719229-s3717184 10</div>
-            
-          <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
-        </footer>
+       
      </div>
   </body>
 </html>
