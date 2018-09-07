@@ -361,10 +361,10 @@ color: black;
 
 }
 .sidetext {
-    position: absolute;
+    position: relative;
     width: 40%;
     
-    left: 35%; 
+    left: 40%; 
     Top: 30%;
 
 }
