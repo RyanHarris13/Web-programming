@@ -121,7 +121,7 @@ head {
 }
 
 nav { 
-    background-color: lightskyblue;
+    background-color: #36558f;
 
 }
 
@@ -162,9 +162,7 @@ main img {
 
 }
 
-body {
-    background-color: rgb(202, 255, 255);
-}
+
 
 
 h1 {
@@ -312,6 +310,7 @@ li a:hover {
 .bot {
     position: absolute;
     top: 95%;
+    background-color: #36558f;
 
 }
 
