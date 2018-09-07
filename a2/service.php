@@ -33,7 +33,7 @@ input[type=number]::-webkit-inner-spin-button {
           </ul>
         </div>
       </nav>
-
+    <div class='ExitMain'>
     <div class='exot'>
         <h2>Exit Cleaning:</h2>
     </div>
@@ -86,7 +86,7 @@ input[type=number]::-webkit-inner-spin-button {
           </form>
           
       </article>
-    </ExitMain>
+          </div>
 <script>
       function myAdd() {
           var num = document.getElementById("qty");
