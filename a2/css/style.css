@@ -3,7 +3,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <<<<<<< HEAD
 .Login form {
     border: 3px solid #f1f1f1;
-    align-content: center;
+   
 }
 =======
 =======
@@ -18,8 +18,8 @@ form {border: 3px solid #f1f1f1;}
 =======
 >>>>>>> 15f30cfe6ef9b18aae4b7281b9075a828bf7a672
 
-input[type=email], input[type=password] {
-    width: 40%;
+.Login input[type=email], input[type=password] {
+    width: 60%;
     padding: 18px 24px;
     margin: 14px 0;
     display: inline-block;
@@ -50,14 +50,35 @@ input[type=email], input[type=password] {
     background-color: lightskyblue;
     background-color: #36558F;
 
-    color: black;
+    color: white;
     padding: 14px 20px;
     margin: 20px 0;
-    border: groove; 
+    border: none; 
     cursor: pointer;
     width: 100%;
 }
+.yeet button{
+    background-color:  #4264c0;
+    background-color: lightskyblue;
+    
+    background-color: lightskyblue;
+    background-color: #36558F;
+   
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none; 
+   
+    cursor: pointer;
+    width: 100%;
+ }
 
+exit button:hover {
+    opacity: 0.8;
+}
+.return button:hover {
+    opacity: 0.8;
+}
 
 button:hover {
     opacity: 0.8;
@@ -168,6 +189,17 @@ form {
     
 
 }
+.exit form{
+ color: white;
+    background-color: rgb(202, 255, 255) !important;
+    size: 20px;
+}
+.return form{
+     color: white;
+    background-color: rgb(202, 255, 255) !important;
+    size: 20px;
+}
+
 option {
     color: white;
     size: 20px;
