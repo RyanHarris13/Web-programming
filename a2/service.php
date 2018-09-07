@@ -117,7 +117,7 @@ input[type=number]::-webkit-inner-spin-button {
           }
       }
       </script>
-    <div class='bot'>
+    <div class='bot2'>
        <footer>
           <div>&copy;<script>
             document.write(new Date().getFullYear());
