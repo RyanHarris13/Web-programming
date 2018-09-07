@@ -40,25 +40,17 @@
 
         <h3>Our Background:</h3>
         <p2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Mauris ac quam vel justo convallis gravida a iaculis risus. Ut in purus eu nunc rhoncus lacinia id in turpis.
-          Sed porta purus eget aliquam maximus. Aenean id tortor massa. Ut lacinia dolor tellus, non feugiat ipsum tincidunt vitae. 
-          Pellentesque eget volutpat ante, ut venenatis erat. Fusce vel finibus lectus. Suspendisse porttitor accumsan vulputate. 
-          Vivamus mollis purus eget magna gravida, ac egestas enim consectetur.
+          We are a small family based cleaning business based in melbourne. We have been doing high order cleaning for exits and bonds for 
+          over 10 years. Our teams have years of experience under their belt. We started this business as a small cleaning department for 
+          some real estate agents, and since then we have expanded to cleaning for the largest real estate firms in victoria and Cleaning
+          high value properties to exeptional standards throughout Melbourne.
         </p2> 
 
       </div>
 
       <div class="ColText2">
 
-        <h3>Our history:</h3>
-        <p2> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Mauris ac quam vel justo convallis gravida a iaculis risus. Ut in purus eu nunc rhoncus lacinia id in turpis. 
-          Sed porta purus eget aliquam maximus. Aenean id tortor massa. Ut lacinia dolor tellus, non feugiat ipsum tincidunt vitae. 
-          Pellentesque eget volutpat ante, ut venenatis erat. Fusce vel finibus lectus. Suspendisse porttitor accumsan vulputate.
-          Vivamus mollis purus eget magna gravida, ac egestas enim consectetur.
-        </p2>
+        <! INSERT IMAGE>  
 
       </div>
 
@@ -66,12 +58,11 @@
 
         <h3>Our focus:</h3>
         <p2> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Mauris ac quam vel justo convallis gravida a iaculis risus. Ut in purus eu nunc rhoncus lacinia id in turpis. 
-            Sed porta purus eget aliquam maximus. Aenean id tortor massa. Ut lacinia dolor tellus, non feugiat ipsum tincidunt vitae. 
-            Pellentesque eget volutpat ante, ut venenatis erat. Fusce vel finibus lectus. Suspendisse porttitor accumsan vulputate.
-            Vivamus mollis purus eget magna gravida, ac egestas enim consectetur.
-          </p2>
+        Our focus is to bring the highest quality of cleans to any property. Bringing even the worst of houses to a spic and span 
+        standard ready to be sold or enough to get your bond back, as is our promise. Our precision on our cleans is our top priority, 
+        missing spots is unnaceptable, and because of that we will come for a callback without hesitation. We pride ourselves in leaving
+        a perfect service so every customer gets exactly what they paid for.    
+        </p2>
 
       </div>
 
