@@ -227,7 +227,7 @@ li a:hover {
 .ColText1{
     position: absolute;
     width: 20%;
-    height: 200px;
+  
     top: 45%;
     left: 15%;
     margin: -100px 0 0 -150px;
@@ -239,7 +239,7 @@ li a:hover {
 .ColText2{
     position: absolute;
     width: 20%;
-    height: 200px;
+    
     top: 45%;
     left: 45%;
     margin: -100px 0 0 -150px;
@@ -250,7 +250,7 @@ li a:hover {
 .ColText3{
     position: absolute;
     width: 20%;
-    height: 200px;
+    
     top: 45%;
     left: 75%;
     margin: -100px 0 0 -150px;
@@ -306,7 +306,7 @@ li a:hover {
 
     position: absolute;
     width: 20%;
-    height: 200px;
+    
     top: 50%;
     left: 75%;
     margin: -100px 0 0 -150px;
