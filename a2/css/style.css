@@ -1,4 +1,8 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+    padding-left: 2%;
+    padding-right: 2%
+    font-family: Arial, Helvetica, sans-serif;
+}
 <<<<<<< HEAD
 <<<<<<< HEAD
 .Login form {
