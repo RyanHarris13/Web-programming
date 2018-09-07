@@ -26,7 +26,7 @@ input[type=number]::-webkit-inner-spin-button {
         </h1>
           <ul>
 
-             <li><a href="login.php" >Members login</a></li>
+            <li><a href="login.php" >Members login</a></li>
             <li><a href="services.php" >Services and Pricing</a></li>
             <li><a href="index.php">Home</a></li>
 
@@ -41,11 +41,12 @@ input[type=number]::-webkit-inner-spin-button {
       <article id='Front page things'>
 
         <img src='../../media/ExitClean.jpg' alt='empty house picture' />
-          <description>
+
+          <div class='sidetext'>
           <p>With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it. This package is best for people who want to leave on good terms with whoever is in your house after, or landlords with some particularily messy tenants.</p>
               
           
-          </description>
+          </div>
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
               <input type="hidden" name="id" value="SRVC001">
               <p>Option: Cleaning type </p>
