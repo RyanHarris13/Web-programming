@@ -279,6 +279,17 @@ li a:hover {
     text-align: center;
 
 }
+.exit form{
+ color: white;
+    background-color: rgb(202, 255, 255) !important;
+    size: 20px;
+}
+.return form{
+     color: white;
+    background-color: rgb(202, 255, 255) !important;
+    size: 20px;
+}
+
 
 .bot {
     position: absolute;
