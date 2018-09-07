@@ -120,6 +120,11 @@ head {
     background-color: rgb(48, 39, 42)
 }
 
+body {
+    background-color: white;
+
+}
+
 nav { 
     background-color: #36558f;
 
