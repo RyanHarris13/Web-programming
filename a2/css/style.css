@@ -100,12 +100,7 @@ li a {
 
 header img {
     width: 200px;
-<<<<<<< HEAD
-    
-=======
-
 }
->>>>>>> 96354ecb37eab40029bedd54e8f8fe90f309c3f2
 
 main img {
     width: 250px;
@@ -170,7 +165,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 55%;
+    top: 60%;
     left: 15%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -181,7 +176,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 55%;
+    top: 60%;
     left: 45%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -191,7 +186,7 @@ li a:hover {
     width: 20%;
     height: 200px;
     z-index: 15;
-    top: 55%;
+    top: 60%;
     left: 75%;
     margin: -100px 0 0 -150px;
     text-align: center;
