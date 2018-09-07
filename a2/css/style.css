@@ -120,10 +120,12 @@ head {
     background-color: rgb(48, 39, 42)
 }
 
-nav { 
-    background-color: #36558f;
+body {
+    background-color: white;
 
 }
+
+
 
 ul {
     list-style-type: none;
