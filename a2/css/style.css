@@ -140,6 +140,11 @@ ul {
     border-radius: 25%;
 }
 
+.navimg {
+    width: 50px !important; 
+
+}
+
 li {
     float: right;
     
