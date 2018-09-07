@@ -342,3 +342,13 @@ font-family: Helvetica, sans-serif;
 color: #131515;
 
 }
+
+
+.sidetext {
+    position: absolute;
+    width: 100px;
+    
+    left: 55%; 
+    Top: 30%;
+
+}
