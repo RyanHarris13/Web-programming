@@ -27,12 +27,6 @@
 
     <main>
 
-      <div class="Title"> 
-
-        <h5>Home</h5> 
-
-      </div>
-
       <div class="ColText1">
 
         <h3>Our Background:</h3>
