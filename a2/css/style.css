@@ -313,12 +313,14 @@ li a:hover {
     position: absolute;
     top: 95%;
     background-color: #36558f;
+    width: 100%;
 
 }
 
 .bot2 {
     position: relative;
     top: 95%;
+    width: 100%;
 
 }
 
