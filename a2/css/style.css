@@ -2,6 +2,7 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     font-family: Arial, Helvetica, sans-serif;
+    height: auto;
 }
 
 .Login form {
@@ -10,7 +11,7 @@ body {
 }
 
 
-
+ 
 
 input[type=email], input[type=password] {
     width: 60%;
@@ -130,10 +131,18 @@ ul {
     list-style-type: none;
     background-color: #36558f;
     overflow: auto;
+    
+}
+ li img{
+height:  90 px;
+    float: left;
+    border-radius: 25%;
 }
 
 li {
     float: right;
+    border-right: 1px solid black;
+    border-left: 3px solid black;
 
 }
 
@@ -147,9 +156,7 @@ li a {
 
 }
 
-header img {
-    width: 200px;
-}
+
 
 main img {
     width: 250px;
@@ -232,7 +239,7 @@ li a:hover {
     width: 20%;
     border-radius: 25px;
     padding: 10px;
-    top: 45%;
+    top: 50%;
     left: 25%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -244,7 +251,7 @@ li a:hover {
     position: absolute;
     width: 30%;
     
-    top: 45%;
+    top: 50%;
     left: 45%;
     margin: -90px 0 0 -160px;
     text-align: center;
@@ -253,7 +260,7 @@ li a:hover {
 }
 .ColText2 img{
     border-radius: 20%;
-    max-width: 120%;
+    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -264,7 +271,7 @@ li a:hover {
     width: 20%;
     border-radius: 25px;
     padding: 10px;
-    top: 45%;
+    top: 50%;
     left: 75%;
     margin: -100px 0 0 -150px;
     text-align: center;
@@ -290,7 +297,8 @@ li a:hover {
 
     border-style: solid;
     border-width: 2px;
-
+    border-radius: 25px;
+    padding: 10px;
 }
 .return{
     background-image: url('');
@@ -309,6 +317,8 @@ li a:hover {
 
     border-style: solid;
     border-width: 2px;
+    border-radius: 25px;
+    padding: 10px;
 }
 .yeet{
     background-image: url('');
@@ -328,6 +338,8 @@ li a:hover {
 
     border-style: solid;
     border-width: 2px;
+    border-radius: 25px;
+    padding: 10px;
 
 }
 
@@ -361,6 +373,39 @@ color: black;
     left: 35%; 
     Top: 30%;
 
+}
+.hero-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
+  height: 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+          
+}
+
+.hero-text {
+  text-align: center !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: white !important;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
 }
 
 .exot{ 

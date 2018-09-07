@@ -2,6 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
+      
     <title>Assignment 2</title>
     
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
@@ -11,22 +12,34 @@
   </head>
 
   <body>
-
-    <nav>
-      <div>
-        <h1> 
-          Exit and Bond Cleaning
+<div class= "header">
+     
+        
+        <h1>
+                     
+             Exit and Bond Cleaning
+            
         </h1>
+        
+</div>
+    <nav>
+      
           <ul>
+            <li><img src='../../media/exit-and-bond-cleaning-wantirna-south-3152-logo.gif' alt="Logo"/>   </li>
             <li><a href="login.php" >Members login</a></li>
             <li><a href="services.php" >Services and Pricing</a></li>
             <li><a href="index.php">Home</a></li>
+              
           </ul>
-        </div>
+        
       </nav>
 
     <main>
-
+<div class="hero-image">
+        <div class="hero-text">
+    </div>
+    <h1>Clean With Style </h1>
+        </div>
       <div class="ColText1">
 
         <h3>Our Background:</h3>
@@ -57,13 +70,6 @@
 
       </div>
 
-
-
-
-      <article id='Front page things'>
-
-        <img src='../../media/' alt='' />
-      </article>
     </main>
 
     <div class='bot'>
