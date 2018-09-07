@@ -25,7 +25,9 @@
     <nav>
       
           <ul>
+          <div class='navimg'>
             <li><img src='../../media/exit-and-bond-cleaning-wantirna-south-3152-logo.gif' alt="Logo"/>   </li>
+          </div>
             <li><a href="login.php" >Members login</a></li>
             <li><a href="services.php" >Services and Pricing</a></li>
             <li><a href="index.php">Home</a></li>
