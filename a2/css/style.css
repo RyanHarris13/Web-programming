@@ -21,7 +21,7 @@ input[type=email], input[type=password] {
     color: white;
     padding: 14px 20px;
     margin: 20px 0;
-    border: groove; 
+    border: none;
     cursor: pointer;
     width: 100%;
 }
@@ -29,6 +29,7 @@ input[type=email], input[type=password] {
     background-color:  #4264c0;
     background-color: lightskyblue;
 
+<<<<<<< HEAD
     background-color: lightskyblue;
     background-color: #36558F;
 
@@ -40,6 +41,8 @@ input[type=email], input[type=password] {
     width: 100%;
 }
 
+=======
+>>>>>>> 36aca71f614a145e4a3845e8fdc6ba29b91c9c47
 
 button:hover {
     opacity: 0.8;
@@ -136,6 +139,10 @@ body {
 h1 {
     color: rgb(0, 0, 0);
     margin-left: 20px;
+    left: 50%;
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
 }
 
 form {
@@ -145,19 +152,6 @@ form {
     
 
 }
-
-.exit form{
- color: white;
-    background-color: rgb(202, 255, 255) !important;
-    size: 20px;
-}
-.return form{
-     color: white;
-    background-color: rgb(202, 255, 255) !important;
-    size: 20px;
-}
-
-
 option {
     color: white;
     size: 20px;
@@ -289,13 +283,3 @@ font-family: Helvetica, sans-serif;
 color: #131515;
 
 }
-
-h3 {
-    
-
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 96354ecb37eab40029bedd54e8f8fe90f309c3f2
