@@ -29,16 +29,18 @@
 
     <main>
         <h2>Login Page</h2>
+        <div class="Login">
        <form action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post" target="_blank">
   <div class="imgcontainer">
     <img src="../../media/img_avatar2.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
-    <label for="uname"><b>Username</b></label>
+      <p><b>Username:</b></p>
+    <label for="uname"></label>
     <input type="email" placeholder="Enter Email" name="email" required>
-
-    <label for="password"><b>Password</b></label>
+      <p><b>Password:</b></p>
+    <label for="password"></label>
     <input type="password" placeholder="Enter Password" name="password" required>
         
     <button type="submit">Login</button>
@@ -52,6 +54,7 @@
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
+        </div>
         
       <article id='Front page things'>
 
