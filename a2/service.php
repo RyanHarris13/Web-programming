@@ -114,6 +114,7 @@ input[type=number]::-webkit-inner-spin-button {
       </script>
     <div class='bot2'>
        <footer>
+            <br>
           <div>&copy;<script>
             document.write(new Date().getFullYear());
           </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A2-s3719229-s3717184 10</div>
