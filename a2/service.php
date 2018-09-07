@@ -63,11 +63,9 @@ input[type=number]::-webkit-inner-spin-button {
       <img src="" alt="" />
     </div>
  
-    <div class="description">
-      
-    </div>
+   
  
-   <p class='quantity'>Quantity</p>
+  
                   <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
                   <input class='number' id='qty' type='text' name='qty' value='0'>
                   <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
