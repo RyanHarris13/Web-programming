@@ -29,14 +29,29 @@ input[type=email], input[type=password] {
     background-color:  #4264c0;
     background-color: lightskyblue;
 
-<<<<<<< HEAD
+
     background-color: lightskyblue;
     background-color: #36558F;
 
-    color: black;
+    color: white;
     padding: 14px 20px;
     margin: 20px 0;
-    border: groove; 
+    border: none; 
+    cursor: pointer;
+    width: 100%;
+}
+.blah button{
+background-color:  #4264c0;
+    background-color: lightskyblue;
+
+
+    background-color: lightskyblue;
+    background-color: #36558F;
+
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none; 
     cursor: pointer;
     width: 100%;
 }
@@ -265,6 +280,17 @@ li a:hover {
     text-align: center;
 
 }
+.exit form{
+ color: white;
+    background-color: rgb(202, 255, 255) !important;
+    size: 20px;
+}
+.return form{
+     color: white;
+    background-color: rgb(202, 255, 255) !important;
+    size: 20px;
+}
+
 
 .bot {
     position: absolute;
