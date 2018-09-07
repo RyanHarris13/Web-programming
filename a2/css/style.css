@@ -323,6 +323,7 @@ li a:hover {
     top: 95%;
     background-color: #36558f;
     width: 100%;
+    color: white;
 
 }
 
@@ -330,6 +331,7 @@ li a:hover {
     position: relative;
     top: 95%;
     width: 100%;
+    color: white;
 
 }
 
