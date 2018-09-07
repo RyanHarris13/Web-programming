@@ -348,6 +348,15 @@ li a:hover {
 
 }
 
+.bot2{ 
+    position: relative;
+    top: 95%;
+    background-color: #36558f;
+    width: 95%;
+    color: white;
+    height: 7%;
+}
+
 
 h5 {
 font-size: 42px;
