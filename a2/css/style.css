@@ -10,15 +10,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 >>>>>>> 15f30cfe6ef9b18aae4b7281b9075a828bf7a672
 <<<<<<< Updated upstream
 .Login form {border: 3px solid #f1f1f1;}
-=======
-form {border: 3px solid #f1f1f1;}
->>>>>>> Stashed changes
-<<<<<<< HEAD
->>>>>>> 15f30cfe6ef9b18aae4b7281b9075a828bf7a672
-=======
->>>>>>> 15f30cfe6ef9b18aae4b7281b9075a828bf7a672
 
-.Login input[type=email], input[type=password] {
+
+
+input[type=email], input[type=password] {
     width: 60%;
     padding: 18px 24px;
     margin: 14px 0;
