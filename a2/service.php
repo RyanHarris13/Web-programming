@@ -56,10 +56,11 @@ input[type=number]::-webkit-inner-spin-button {
               <p>Option: Cleaning type </p>
               <p>Time, level of cleaning detail and price go up the further down the list</p>
             <select name="option">
-                <option value="Fast">Fast and light</option>
-                <option value="thorough" selected>Thorough</option>
-                <option value="meticulous">Meticulous</option>
-                <option value="moderate">Moderate</option>
+                <option value="Fast">Fast and light: $100</option>
+                <option value="moderate">Moderate: $125</option>
+                <option value="thorough" selected>Thorough: $150</option>
+                <option value="meticulous">Meticulous: $200</option>
+                
             </select>
          <div class="item">
     <p>Quantity picker Form for rooms</p>
