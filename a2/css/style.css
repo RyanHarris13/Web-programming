@@ -105,8 +105,7 @@ li a {
 
 header img {
     width: 200px;
-    padding: 5px; 
-}
+    
 
 main img {
     width: 250px;
@@ -114,7 +113,7 @@ main img {
 
 }
 
-ExitMain img {
+.ExitMain img {
     width: 500px;
     padding: 5px;
 
@@ -268,12 +267,4 @@ h3 {
 
 }
 
-.headerimg {
-    background-image: linear-gradient(rgba(107, 167, 160, 0.5), rgba(107, 167, 160, 0.5)), url('../../media/logo.png');
-    height: 10%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 
-  }
