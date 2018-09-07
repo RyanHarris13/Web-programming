@@ -113,7 +113,7 @@ input[type=number]::-webkit-inner-spin-button {
           }
       }
       </script>
-    <div class='bot2'>
+    <div class='bot'>
        <footer>
             <br>
           <div>&copy;<script>
