@@ -34,7 +34,7 @@ input[type=number]::-webkit-inner-spin-button {
         </div>
       </nav>
 
-    <ExitMain>
+    <div class="ExitMain">
         <h2>Exit Cleaning:</h2>
         
         
@@ -71,7 +71,7 @@ input[type=number]::-webkit-inner-spin-button {
                   <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
                   <input class='number' id='qty' type='text' name='qty' value='0'>
                   <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
-                  <br>
+              
 </div>
 <input id='submit' type="submit" value="Submit" disabled>
 
@@ -82,7 +82,7 @@ input[type=number]::-webkit-inner-spin-button {
           </form>
           
       </article>
-    </ExitMain>
+    </div>
 <script>
       function myAdd() {
           var num = document.getElementById("qty");
