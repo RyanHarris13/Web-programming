@@ -134,14 +134,18 @@ ul {
     
 }
  li img{
+<<<<<<< HEAD
     height: auto;
+=======
+width:  90 px;
+>>>>>>> master
     float: left;
     border-radius: 25%;
 }
 
 li {
     float: right;
-    border-right: 1px solid black;
+    
     border-left: 3px solid black;
 
 }
