@@ -41,7 +41,7 @@
 
       <div class="ColText2">
 
-        <! INSERT IMAGE>  
+         <img src='../../media/cleaning peeps.jpg' />
 
       </div>
 
