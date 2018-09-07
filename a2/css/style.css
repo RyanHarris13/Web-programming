@@ -134,11 +134,9 @@ ul {
     
 }
  li img{
-<<<<<<< HEAD
-    height: auto;
-=======
-width:  90 px;
->>>>>>> master
+    height: 90 px;
+    width:  90 px;
+
     float: left;
     border-radius: 25%;
 }
@@ -381,6 +379,7 @@ color: black;
 .hero-image {
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
   height: 100% !important;
+  size: 20% 100%;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
