@@ -377,14 +377,12 @@ color: black;
 
 }
 .hero-image {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
-  height: 100% !important;
-  size: 20% 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
+  height: 50%;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   position: relative !important;
-  color: white;
           
 }
 
