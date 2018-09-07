@@ -180,6 +180,8 @@ form {
     color: white;
     background-color: #6290c8;
     size: 20px;
+    padding: 1%;
+    align-content: center;
    
     
 
@@ -329,8 +331,9 @@ li a:hover {
 }
 
 .bot2 {
-    position: relative;
+ position: absolute;
     top: 95%;
+    background-color: #36558f;
     width: 95%;
     color: white;
     height: 7%;
