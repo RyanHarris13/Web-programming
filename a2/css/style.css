@@ -184,12 +184,12 @@ form {
 }
 .exit form{
  color: white;
-    background-color: rgb(202, 255, 255) !important;
+    background-color: none !important;
     size: 20px;
 }
 .return form{
      color: white;
-    background-color: rgb(202, 255, 255) !important;
+    background-color: none !important;
     size: 20px;
 }
 
