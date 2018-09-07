@@ -362,7 +362,7 @@ color: black;
 
 }
 .sidetext {
-    position: relative;
+    position: absolute;
     width: 40%;
     
     left: 40%; 
