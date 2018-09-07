@@ -1,5 +1,9 @@
 body {font-family: Arial, Helvetica, sans-serif;}
+<<<<<<< Updated upstream
 .Login form {border: 3px solid #f1f1f1;}
+=======
+form {border: 3px solid #f1f1f1;}
+>>>>>>> Stashed changes
 
 input[type=email], input[type=password] {
     width: 40%;
@@ -33,40 +37,18 @@ input[type=email], input[type=password] {
     background-color: lightskyblue;
     background-color: #36558F;
 
-    color: white;
+    color: black;
     padding: 14px 20px;
     margin: 20px 0;
-    border: none; 
+    border: groove; 
     cursor: pointer;
     width: 100%;
 }
-.blah button{
-background-color:  #4264c0;
-    background-color: lightskyblue;
 
 
-    background-color: lightskyblue;
-    background-color: #36558F;
-
-    color: white;
-    padding: 14px 20px;
-    margin: 20px 0;
-    border: none; 
-    cursor: pointer;
-    width: 100%;
-
-}
-
-=======
->>>>>>> 36aca71f614a145e4a3845e8fdc6ba29b91c9c47
-
-.exit button:hover {
+button:hover {
     opacity: 0.8;
 }
-.return button:hover {
-    opacity: 0.8;
-}
-
 
 .cancelbtn {
     width: auto;
@@ -158,12 +140,12 @@ body {
 
 h1 {
     color: rgb(0, 0, 0);
-    margin-left: 45%;
+    margin-left: 20%;
     text-align: center;
 
 
     font-family: 'Franklin Gothic Medium';
-    font-size: 30px;
+    font-size: 55px;
 }
 
 form {
@@ -268,7 +250,7 @@ li a:hover {
     margin: -100px 0 0 -150px;
     text-align: center;
 }
-.blah{
+.exitc{
     background-image: url('');
     background-position: center;
     background-repeat: no-repeat;
@@ -283,19 +265,9 @@ li a:hover {
     left: 75%;
     margin: -100px 0 0 -150px;
     text-align: center;
+    padding-bottom: 5px;
 
 }
-.exit form{
- color: white;
-    background-color: rgb(202, 255, 255) !important;
-    size: 20px;
-}
-.return form{
-     color: white;
-    background-color: rgb(202, 255, 255) !important;
-    size: 20px;
-}
-
 
 .bot {
     position: absolute;
