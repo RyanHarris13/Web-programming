@@ -134,14 +134,14 @@ ul {
     
 }
  li img{
-height:  90 px;
+width:  90 px;
     float: left;
     border-radius: 25%;
 }
 
 li {
     float: right;
-    border-right: 1px solid black;
+    
     border-left: 3px solid black;
 
 }
