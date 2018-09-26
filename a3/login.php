@@ -34,5 +34,5 @@
         <img src='../../media/' alt='' />
       </article>
     <?php
-  endModule(); // Now a function call
+    endModule(); // Now a function call
 ?>

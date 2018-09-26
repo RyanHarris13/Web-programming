@@ -1,7 +1,7 @@
 
 <?php
 function topModule($pageTitile, $onLoad=''){
-    
+    $output = <<< "RyanAndCaleb"
 <head>
     <meta charset="utf-8"
     <title>$pageTitle</title>
@@ -29,12 +29,13 @@ function topModule($pageTitile, $onLoad=''){
         </div>
       </nav>
     <main>
-   
+   RyanAndCaleb;
         echo $output;
     }
     
 
 function endModule($pageTitle, $onLoad=''){
+    $output = <<< "RyanAndCaleb"
 </main>
 
     <div class='bot'>
@@ -50,7 +51,8 @@ function endModule($pageTitle, $onLoad=''){
 
   </body>
 </html>
-
+RyanAndCaleb;
+        echo $output;
 
 
 }
