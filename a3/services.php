@@ -1,33 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <title>All services</title>
-    
-    <!-- Keep wireframe.css for debugging, add your css to style.css -->
-    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
-    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
-    <script src='../wireframe.js'></script>
-  </head>
-
-  <body>
-
-    <nav>
-      <div>
-        <h1> 
-          Exit and Bond Cleaning
-        </h1>
-          <ul>
-
-              <li><a href="login.php" >Members login</a></li>
-            <li><a href="services.php" >Services and Pricing</a></li>
-            <li><a href="index.php">Home</a></li>
-
-          </ul>
-        </div>
-      </nav>
-
-    <main>
+  <?php
+    session_start();
+    include_once('tools.php');
+    topModule('Exit and Bond cleaning- Home');
+        ?>
 
         <div class="Title"> 
 
@@ -80,18 +57,6 @@
 
        
       </article>
-    </main>
-
-    <div class='bot'>
-        <footer>
-             <br>
-          <div>&copy;<script>
-            document.write(new Date().getFullYear());
-          </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A2-s3719229-s3717184 10</div>
-            
-          <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
-        </footer>
-     </div>
-
-  </body>
-</html>
+    <?php
+  endModule(); // Now a function call
+?>
