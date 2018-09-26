@@ -218,7 +218,7 @@ li a:hover {
 }
 
 .Title {
-    position: absolute;
+    position: fixed;
     width: 300px;
     height: 200px;
     z-index: 15;
@@ -229,7 +229,7 @@ li a:hover {
 }
 
 .ColText1{
-    position: absolute;
+    position: fixed;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
@@ -243,7 +243,7 @@ li a:hover {
 
 }
 .ColText2{
-    position: absolute;
+    position: fixed;
     width: 30%;
     
     top: 50%;
@@ -262,7 +262,7 @@ li a:hover {
     display: block;
 }
 .ColText3{
-    position: absolute;
+    position: fixed;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
@@ -282,7 +282,7 @@ li a:hover {
     background-size: cover;
 
 
-    position: absolute;
+    position: fixed;
     width: 20%;
     
     top: 50%;
@@ -302,7 +302,7 @@ li a:hover {
     background-size: cover;
 
 
-    position: absolute;
+    position: fixed;
     width: 20%;
     
     top: 50%;
@@ -322,7 +322,7 @@ li a:hover {
     background-size: cover;
 
 
-    position: absolute;
+    position: fixed;
     width: 20%;
     
     top: 50%;
@@ -339,7 +339,7 @@ li a:hover {
 }
 
 .bot {
-    position: absolute;
+    position: fixed;
     top: 95%;
     background-color: #36558f;
     width: 95%;
@@ -371,7 +371,7 @@ color: black;
 
 }
 .sidetext {
-    position: absolute;
+    position: fixed;
     width: 40%;
     
     left: 45%; 
@@ -390,7 +390,7 @@ background-image: linear-gradient(rgba(219, 216, 216, 0.5), rgba(219, 216, 216, 
 
 .hero-text {
   text-align: bottom-left !important;
-  position: absolute !important;
+  position: fixed;
   top: 80% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
