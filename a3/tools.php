@@ -2,7 +2,7 @@
 
 
   <?php
-function topModule($pageTitle, $onLoad='') {
+function topModule($pageTitle) {
     $output = <<<"TOPMODULE"
 <head>
     <meta charset="utf-8"
@@ -15,7 +15,7 @@ function topModule($pageTitle, $onLoad='') {
       
   </head>
 
-  <body onload='$onLoad'>
+  <body>
 
     <nav>
       <div>
@@ -30,13 +30,13 @@ function topModule($pageTitle, $onLoad='') {
           </ul>
         </div>
       </nav>
-    <main>
+      <main>
 TOPMODULE;
     echo $output;
 } ?> 
 
 <?php
-function endModule($pageTitle, $onLoad=''){
+function endModule(){
     $output = <<<"ENDMODULE"
     </main>
 
