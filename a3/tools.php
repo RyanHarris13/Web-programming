@@ -37,7 +37,7 @@ TOPMODULE;
 
 <?php
 function endModule($pageTitle, $onLoad=''){
-$output = <<<"ENDMODULE"
+    $output = <<<"ENDMODULE"
     </main>
 
     <div class='bot'>
