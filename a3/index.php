@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <title>Assignment 3</title>
+    <?php
+    session_start();
+    include_once('tools.php');
+    topModule('Exit and Bond cleaning- Home');
+        ?>
+    
+<div class="hero-image">
+        <div class="hero-text">
+    </div>
+    <h1>Clean With Style </h1>
+        </div>
+      <div class="ColText1">
 
-    <!-- Keep wireframe.css for debugging, add your css to style.css -->
-    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
-    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
-    <script src='../wireframe.js'></script>
-    <style>
-      <?php
-        // This PHP code inserts CSS to style the "current page" link in the nav area
-        $here = $_SERVER['SCRIPT_NAME']; 
-        $bits = explode('/',$here); 
-        $filename = $bits[count($bits)-1]; 
-        echo "nav a[href$='$filename'] {
-        box-shadow: 1px 1px 1px 2px navy;
-      }";
-      ?>
-      
-    </style>
-  </head>
+        <h3>Our Background:</h3>
+        <p2>
+          We are a small family based cleaning business based in melbourne. We have been doing high order cleaning for exits and bonds for 
+          over 10 years. Our teams have years of experience under their belt. We started this business as a small cleaning department for 
+          some real estate agents, and since then we have expanded to cleaning for the largest real estate firms in victoria and Cleaning
+          high value properties to exeptional standards throughout Melbourne.
+        </p2> 
 
-  <body>
+      </div>
 
-    <header>
-      <div>Put company logo and name here</div>
-    </header>
+      <div class="ColText2">
 
-    <nav>
-      <div>Put website navigation links here</div>
-    </nav>
+         <img src='../../media/cleaning peeps.jpg' />
 
-    <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
-      </article>
-    </main>
+      </div>
 
-    <footer>
-      <div>&copy;<script>
-        document.write(new Date().getFullYear());
-      </script> Put your name(s), student number(s) and group name here.</div>
-      <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
-      <div>Maintain links to your <a href='products.txt'>products spreadsheet</a> and <a href='orders.txt'>orders spreadsheet</a> here. <button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
-    </footer>
-   
-  </body>
-</html>
+      <div class="ColText3">
+
+        <h3>Our focus:</h3>
+        <p2> 
+        Our focus is to bring the highest quality of cleans to any property. Bringing even the worst of houses to a spic and span 
+        standard ready to be sold or enough to get your bond back, as is our promise. Our precision on our cleans is our top priority, 
+        missing spots is unnaceptable, and because of that we will come for a callback without hesitation. We pride ourselves in leaving
+        a perfect service so every customer gets exactly what they paid for.    
+        </p2>
+
+      </div>
+<?php
+  endModule(); // Now a function call
+?>
+
+    

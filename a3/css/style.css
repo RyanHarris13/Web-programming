@@ -1,1 +1,406 @@
-/* Insert your styles here */
+body {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "Arial", Helvetica, sans-serif;
+    height: auto;
+}
+
+.Login form {
+    border: 3px solid #f1f1f1;
+   
+}
+
+
+ 
+
+input[type=email], input[type=password] {
+    width: 60%;
+    padding: 18px 24px;
+    margin: 14px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.exit button {
+
+    background-color:  #4264c0;
+    background-color: lightskyblue;
+
+    background-color: lightskyblue;
+    background-color: #36558F;
+
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.return button{
+    background-color:  #4264c0;
+    background-color: lightskyblue;
+
+
+    background-color: lightskyblue;
+    background-color: #36558F;
+
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none; 
+    cursor: pointer;
+    width: 100%;
+}
+.yeet button{
+    background-color:  #4264c0;
+    background-color: lightskyblue;
+    
+    background-color: lightskyblue;
+    background-color: #36558F;
+   
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none; 
+   
+    cursor: pointer;
+    width: 100%;
+ }
+
+exit button:hover {
+    opacity: 0.8;
+}
+.return button:hover {
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+head {
+    background-color: rgb(48, 39, 42)
+}
+
+body {
+    background-color: white;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    background-color: #36558f;
+    overflow: auto;
+    
+}
+ li img{
+    width:  50 px;
+
+    float: left;
+    border-radius: 25%;
+}
+
+
+li {
+    float: right;
+    
+    border-left: 3px solid black;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 3vh 5vw;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+
+main img {
+    width: 250px;
+    padding: 5px;
+
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    align-self: center;
+    text-align: center;
+
+
+    font-family: 'Franklin Gothic Medium';
+    font-size: 42px;
+}
+
+form {
+    color: white;
+    background-color: #6290c8;
+    size: 20px;
+    padding: 1%;
+    align-content: center;
+   
+    
+
+}
+.exit form{
+    
+ color: white;
+    background-color: white!important;
+    size: 20px;
+}
+.return form{
+     color: white;
+    background-color: white!important;
+    size: 20px;
+}
+
+option {
+    color: white;
+    size: 20px;
+
+}
+
+p.one {
+    border-style: inset;
+    border-width: 20px
+    
+
+}
+
+li a:hover {
+    background-color: #6290c8;
+
+}
+
+.Title {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 25%;
+    left: 47%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+}
+
+.ColText1{
+    position: absolute;
+    width: 20%;
+    border-radius: 25px;
+    padding: 10px;
+    top: 50%;
+    left: 25%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.ColText2{
+    position: absolute;
+    width: 30%;
+    
+    top: 50%;
+    left: 45%;
+    margin: -90px 0 0 -160px;
+    text-align: center;
+    
+    
+}
+.ColText2 img{
+    border-radius: 20%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.ColText3{
+    position: absolute;
+    width: 20%;
+    border-radius: 25px;
+    padding: 10px;
+    top: 50%;
+    left: 75%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.exit{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    position: absolute;
+    width: 20%;
+    
+    top: 50%;
+    left: 15%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.return{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    position: absolute;
+    width: 20%;
+    
+    top: 50%;
+    left: 45%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.yeet{
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    position: absolute;
+    width: 20%;
+    
+    top: 50%;
+    left: 75%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+    padding-bottom: 5px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.bot {
+    position: absolute;
+    top: 95%;
+    background-color: #36558f;
+    width: 95%;
+    color: white;
+    height: 7%;
+
+}
+
+.bot2{ 
+    position: relative;
+    top: 95%;
+    background-color: #36558f;
+    width: 100%;
+    color: white;
+    height: 7%;
+}
+
+
+h5 {
+font-size: 42px;
+font-family: Helvetica, sans-serif;
+color: #131515;
+
+}
+
+option {
+color: black;
+
+
+}
+.sidetext {
+    position: absolute;
+    width: 40%;
+    
+    left: 45%; 
+    Top: 30%;
+
+}
+.hero-image {
+background-image: linear-gradient(rgba(219, 216, 216, 0.5), rgba(219, 216, 216, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
+  height: 17vh;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+          
+}
+
+.hero-text {
+  text-align: bottom-left !important;
+  position: absolute !important;
+  top: 80% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: white !important;
+}
+
+
+.exot{ 
+    text-align: center;
+    align-self: center;
+    align-content: center;
+
+}

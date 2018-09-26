@@ -1,9 +1,7 @@
 
-
-
-  <?php
-function topModule($pageTitle, $onLoad='') {
-    $output = <<<"TOPMODULE"
+<?php
+function topModule($pageTitile, $onLoad=''){
+    
 <head>
     <meta charset="utf-8"
     <title>$pageTitle</title>
@@ -31,17 +29,17 @@ function topModule($pageTitle, $onLoad='') {
         </div>
       </nav>
     <main>
-TOPMODULE;
-    echo $output;
-}  
+   
+        echo $output;
+    }
+    
 
 function endModule($pageTitle, $onLoad=''){
-$output = <<<"ENDMODULE"
-    </main>
+</main>
 
     <div class='bot'>
         <footer>
-        <br>
+             <br>
           <div>&copy;<script>
             document.write(new Date().getFullYear());
           </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A2-s3719229-s3717184 10</div>
@@ -54,10 +52,8 @@ $output = <<<"ENDMODULE"
 </html>
 
 
-ENDMODULE;
-echo $output;
-}
 
+}
     
     function preShow( $arr, $returnAsString=false ) {
   $ret  = '<pre>' . print_r($arr, true) . '</pre>';

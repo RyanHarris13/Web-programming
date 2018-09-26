@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
+    <?php
+  
+        ?>
+    /*<head>
     <meta charset="utf-8">
       
     <title>Assignment 2</title>
@@ -33,7 +36,7 @@
         
       </nav>
 
-    <main>
+    <main>*/
 <div class="hero-image">
         <div class="hero-text">
     </div>
