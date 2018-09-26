@@ -33,8 +33,9 @@ function topModule($pageTitle, $onLoad='') {
     <main>
 TOPMODULE;
     echo $output;
-}  
+} ?> 
 
+<?php
 function endModule($pageTitle, $onLoad=''){
 $output = <<<"ENDMODULE"
     </main>
@@ -56,7 +57,7 @@ $output = <<<"ENDMODULE"
 
 ENDMODULE;
 echo $output;
-}
+}?>
 
     
     function preShow( $arr, $returnAsString=false ) {

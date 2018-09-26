@@ -17,6 +17,7 @@ input[type=number]::-webkit-inner-spin-button {
       <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
   </head>
 
+<main>
   <body>
 
     <nav>
@@ -129,4 +130,5 @@ input[type=number]::-webkit-inner-spin-button {
         </footer>
      </div>
   </body>
+  </main>
 </html>
