@@ -3,7 +3,7 @@
   <?php
     session_start();
     include_once('tools.php');
-    topModule('Exit and Bond cleaning- Home');
+    topModule('Exit and Bond cleaning- Login');
         ?>
         <h2>Login Page</h2>
         <div class="Login">

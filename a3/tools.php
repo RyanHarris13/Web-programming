@@ -57,6 +57,7 @@ function endModule(){
 
 ENDMODULE;
 echo $output;
+    
 }?>
 
     <?php
@@ -95,5 +96,6 @@ function styleCurrentNavLink( $css ) {
   $filename = $bits[count($bits)-1]; 
   echo "<style>nav a[href$='$filename'] { $css }</style>";
 }
+
 
 ?>
