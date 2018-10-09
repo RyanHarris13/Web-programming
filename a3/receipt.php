@@ -6,13 +6,40 @@ input[type=number]::-webkit-inner-spin-button {
         -webkit-appearance: none !important;
     }
 </style>
- <?php
-    session_start();
-    include_once('tools.php');
-    topModule('Exit and Bond cleaning- Home');
-        ?>
- 
-   
+  <head>
+    <meta charset="utf-8">
+    <title>Exit Cleaning</title>
+    
+    <!-- Keep wireframe.css for debugging, add your css to style.css -->
+    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
+    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
+    <script src='../wireframe.js'></script>
+      <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+  </head>
+
+<main>
+  <body>
+
+    <nav>
+      <div>
+        <h1> 
+          Exit and Bond Cleaning
+        </h1>
+          <ul>
+
+            <li><a href="login.php" >Members login</a></li>
+            <li><a href="services.php" >Services and Pricing</a></li>
+            <li><a href="index.php">Home</a></li>
+
+          </ul>
+        </div>
+      </nav>
+    <div class='ExitMain'>
+    <div class='exot'>
+        <h2>Exit Cleaning:</h2>
+    </div>
+        
+      <article id='Front page things'>
 
         <img src='../../media/ExitClean.jpg' alt='empty house picture' />
 
@@ -92,6 +119,16 @@ input[type=number]::-webkit-inner-spin-button {
           }
       }
       </script>
-    <?php
-  endModule(); // Now a function call
-?>
+    <div class='bot2'>
+       <footer>
+            <br>
+          <div>&copy;<script>
+            document.write(new Date().getFullYear());
+          </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A2-s3719229-s3717184 10</div>
+            
+          <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
+        </footer>
+     </div>
+  </body>
+  </main>
+</html>

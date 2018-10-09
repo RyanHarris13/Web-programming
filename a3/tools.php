@@ -3,6 +3,7 @@
 
   <?php
 function topModule($pageTitle) {
+    session_start();
     $output = <<<"TOPMODULE"
 <head>
     <meta charset="utf-8"
@@ -57,16 +58,16 @@ function endModule(){
 
 ENDMODULE;
 echo $output;
-    
-}?>
-
-    <?php
-    function preShow( $arr, $returnAsString=false ) {
+     function preShow( $arr, $returnAsString=false ) {
   $ret  = '<pre>' . print_r($arr, true) . '</pre>';
   if ($returnAsString)
     return $ret;
   else 
     echo $ret; 
+}?>
+
+    <?php
+   
 }
 
 function printMyCode() {

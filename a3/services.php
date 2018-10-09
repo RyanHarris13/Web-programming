@@ -20,7 +20,7 @@
               rooms done to an exeptional standard, with addition to a full steam cleaned carpet if neccicary.
               We promise that the property will be in selling condition for future tennants.
             </p2> 
-            <form action ="service.php" >
+            <form action ="service.php?id=s1" >
                 <button type="Submit">Read More:</button>
               </form>
           </div>
