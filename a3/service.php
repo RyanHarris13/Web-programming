@@ -9,10 +9,10 @@ input[type=number]::-webkit-inner-spin-button {
   <?php
    // session_start();
     include_once('tools.php');
-    topModule('Exit and Bond cleaning- Services');
+    topModule('Exit and Bond cleaning- Service');
    
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-    dataTable('services.txt' )
+    
         ?>
 
  
