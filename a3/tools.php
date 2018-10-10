@@ -75,16 +75,28 @@ function printMyCode() {
 
    
    function Read($file){
-   $fp = fopen('$file','r'); 
+   $fp = fopen($file,'r'); 
  if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
       while ( $cells = fgetcsv($fp, 0, "\t") ) { 
         for ($x=1; $x<count($cells); $x++) 
-          $product[$cells[0]][$headings[$x]]=$cells[$x]; 
+          $pumps[$cells[0]][$headings[$x]]=$cells[$x]; 
       } 
     } 
     fclose($fp); 
-    preShow($product); 
+    preShow($pumps); 
    }
+function dataTable($file){
+    echo"<table align = 'center' class = 'services'>\n\n";
+    $fp = fopen($file, 'r');
+    while(($line= fgetcsv($fp, 0, "\t"))!==false){
+        foreach ($line as $cell){
+            echo"<td>". htmlspecialchars($cell) . "</td>";
+        }
+        echo"</tr>\n";
+        }
+    fclose($fp);
+    echo"\n</table>";
+    }
 
 function php2js( $arr, $arrName ) {
   $lineEnd="";
