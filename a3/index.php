@@ -3,11 +3,12 @@
     <?php
    // session_start();
     include_once('tools.php');
-    topModule('Exit and Bond cleaning- Services');
+    topModule('index');
    
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-    dataTable('services.txt' )
+   
         ?>
+    
     
 <div class="hero-image">
         <div class="hero-text">
