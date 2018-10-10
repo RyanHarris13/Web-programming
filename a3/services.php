@@ -4,8 +4,9 @@
    // session_start();
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Services');
-   dataTable('services.txt' )
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
+   dataTable('services.txt' )
+    
    
         ?>
 
