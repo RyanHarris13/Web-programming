@@ -217,8 +217,16 @@ li a:hover {
 
 }
 
+
+#services  {
+    border: 1px solid black;
+}
 .Title {
+<<<<<<< HEAD
     position: relative;
+=======
+    position: fixed;
+>>>>>>> master
     width: 300px;
     height: 200px;
     z-index: 15;
@@ -283,7 +291,7 @@ li a:hover {
     background-size: cover;
 
 
-    position: absolute;
+    position: relative;
     width: 20%;
     
     top: 50%;
@@ -303,7 +311,7 @@ li a:hover {
     background-size: cover;
 
 
-    position: absolute;
+    position: relative;
     width: 20%;
     
     top: 50%;
@@ -323,7 +331,7 @@ li a:hover {
     background-size: cover;
 
 
-    position: absolute;
+    position: relative;
     width: 20%;
     
     top: 50%;
@@ -372,7 +380,7 @@ color: black;
 
 }
 .sidetext {
-    position: absolute;
+    position: relative;
     width: 40%;
     
     left: 45%; 
