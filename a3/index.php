@@ -9,6 +9,7 @@
    
         ?>
     
+    
 <div class="hero-image">
         <div class="hero-text">
     </div>

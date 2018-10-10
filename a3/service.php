@@ -12,7 +12,7 @@ input[type=number]::-webkit-inner-spin-button {
     topModule('Exit and Bond cleaning- Service');
    
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-    
+    dataTable('services.txt' )
         ?>
 
  
@@ -93,5 +93,5 @@ input[type=number]::-webkit-inner-spin-button {
 
     <?php
   endModule(); // Now a function call
-    printMyCode();
+    
 ?>
