@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
   <?php
-    session_start();
+   // session_start();
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Services');
         ?>
@@ -9,6 +9,9 @@
         <div class="Title"> 
 
             <h5><strong>Our Services</strong></h5>
+            <?php
+            ReadFile('products.txt');
+            ?>
 
         </div>
         <div class="exit">

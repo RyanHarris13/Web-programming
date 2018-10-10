@@ -34,9 +34,7 @@ function topModule($pageTitle) {
       <main>
 TOPMODULE;
     echo $output;
-} ?> 
-
-<?php
+} 
 function endModule(){
     $output = <<<"ENDMODULE"
     </main>
@@ -58,18 +56,15 @@ function endModule(){
 
 ENDMODULE;
 echo $output;
+}
      function preShow( $arr, $returnAsString=false ) {
   $ret  = '<pre>' . print_r($arr, true) . '</pre>';
   if ($returnAsString)
     return $ret;
   else 
     echo $ret; 
-}?>
-
-    <?php
-   
-}
-
+         
+     }
 function printMyCode() {
   $lines = file($_SERVER['SCRIPT_FILENAME']);
   echo "<pre class='mycode'>\n";
@@ -77,6 +72,19 @@ function printMyCode() {
      printf("%3u: %1s \n", $lineNo, rtrim(htmlentities($lineOfCode)));
   echo "</pre>";
 }
+
+   
+   function ReadFile($file){
+   $fp = fopen('$file','r'); 
+ if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
+      while ( $cells = fgetcsv($fp, 0, "\t") ) { 
+        for ($x=1; $x<count($cells); $x++) 
+          $pumps[$cells[0]][$headings[$x]]=$cells[$x]; 
+      } 
+    } 
+    fclose($fp); 
+    preShow($pumps); 
+   }
 
 function php2js( $arr, $arrName ) {
   $lineEnd="";
