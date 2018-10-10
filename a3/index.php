@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang='en'>
     <?php
-    session_start();
+   // session_start();
     include_once('tools.php');
-    topModule('Exit and Bond cleaning- Home');
+    topModule('Exit and Bond cleaning- Services');
+   
+    styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
+    dataTable('services.txt' )
         ?>
     
 <div class="hero-image">
@@ -44,5 +47,3 @@
   endModule(); // Now a function call
     printMyCode();
 ?>
-
-    

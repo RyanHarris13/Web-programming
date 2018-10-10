@@ -1,7 +1,4 @@
-
-
-
-  <?php
+ <?php
 function topModule($pageTitle) {
     session_start();
     $output = <<<"TOPMODULE"
@@ -15,9 +12,7 @@ function topModule($pageTitle) {
     <script src='../wireframe.js'></script>
       
   </head>
-
   <body>
-
     <nav>
       <div>
         <h1> 
@@ -27,7 +22,6 @@ function topModule($pageTitle) {
            <li><a href="login.php" >Members login</a></li>
             <li><a href="services.php" >Services and Pricing</a></li>
             <li><a href="index.php">Home</a></li>
-
           </ul>
         </div>
       </nav>
@@ -38,7 +32,6 @@ TOPMODULE;
 function endModule(){
     $output = <<<"ENDMODULE"
     </main>
-
     <div class='bot'>
         <footer>
         <br>
@@ -49,11 +42,8 @@ function endModule(){
           <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
         </footer>
      </div>
-
   </body>
 </html>
-
-
 ENDMODULE;
 echo $output;
 }
@@ -72,20 +62,30 @@ function printMyCode() {
      printf("%3u: %1s \n", $lineNo, rtrim(htmlentities($lineOfCode)));
   echo "</pre>";
 }
-
    
    function Read($file){
-   $fp = fopen('$file','r'); 
+   $fp = fopen($file,'r'); 
  if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
       while ( $cells = fgetcsv($fp, 0, "\t") ) { 
         for ($x=1; $x<count($cells); $x++) 
-          $product[$cells[0]][$headings[$x]]=$cells[$x]; 
+          $pumps[$cells[0]][$headings[$x]]=$cells[$x]; 
       } 
     } 
     fclose($fp); 
-    preShow($product); 
+    preShow($pumps); 
    }
-
+function dataTable($file){
+    echo"<table align = 'center' class = 'services'>\n\n";
+    $fp = fopen($file, 'r');
+    while(($line= fgetcsv($fp, 0, "\t"))!==false){
+        foreach ($line as $cell){
+            echo"<td>". htmlspecialchars($cell) . "</td>";
+        }
+        echo"</tr>\n";
+        }
+    fclose($fp);
+    echo"\n</table>";
+    }
 function php2js( $arr, $arrName ) {
   $lineEnd="";
   echo "<script>\n";
@@ -97,14 +97,10 @@ function php2js( $arr, $arrName ) {
   echo "  \n};\n";
   echo "</script>\n\n";
 }
-
-
 function styleCurrentNavLink( $css ) {
   $here = $_SERVER['SCRIPT_NAME']; 
   $bits = explode('/',$here); 
   $filename = $bits[count($bits)-1]; 
   echo "<style>nav a[href$='$filename'] { $css }</style>";
 }
-
-
 ?>
