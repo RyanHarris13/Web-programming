@@ -4,16 +4,13 @@
    // session_start();
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Services');
-   
-    styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-    dataTable('services.txt' )
         ?>
 
         <div class="Title"> 
 
             <h5><strong>Our Services</strong></h5>
             <?php
-            //Read('services.txt');
+            Read('products.txt');
             ?>
 
         </div>
@@ -65,5 +62,4 @@
       </article>
     <?php
   endModule(); // Now a function call
-    printMyCode();
 ?>
