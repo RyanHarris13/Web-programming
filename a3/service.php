@@ -12,11 +12,14 @@ input[type=number]::-webkit-inner-spin-button {
     topModule('Exit and Bond cleaning- Home');
         ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
                <img src='../../media/ExitClean.jpg' alt='empty house picture' />
                <div class='sidetext'>
 =======
+=======
+>>>>>>> 66a8f69aacccdea750d3250bb2ad48ff5c800f41
  
    
 
@@ -35,6 +38,9 @@ input[type=number]::-webkit-inner-spin-button {
 <<<<<<< HEAD
 =======
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
+<<<<<<< HEAD
+>>>>>>> 66a8f69aacccdea750d3250bb2ad48ff5c800f41
+=======
 >>>>>>> 66a8f69aacccdea750d3250bb2ad48ff5c800f41
               <input type="hidden" name="id" value="SRVC001">
               <p>Option: Cleaning type </p>
