@@ -47,21 +47,7 @@ input[type=number]::-webkit-inner-spin-button {
  
     <div class="description">
       
- 
- 
-   <p class='quantity'>Quantity</p>
-                  <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
-                  <input class='number' id='qty' type='text' name='qty' value='0'>
-                  <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
-                  <br>
-</div>
-<input id='submit' type="submit" value="Submit" disabled>
-
-      
-     </form>
-          
-      
-<script>
+ <script>
       function myAdd() {
           var num = document.getElementById("qty");
           var int = num.value;
@@ -91,6 +77,20 @@ input[type=number]::-webkit-inner-spin-button {
           }
       }
       </script>
+ 
+   <p class='quantity'>Quantity</p>
+                  <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
+                  <input class='number' id='qty' type='text' name='qty' value='0'>
+                  <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
+                  <br>
+</div>
+<input id='submit' type="submit" value="Submit" disabled>
+
+      
+     </form>
+          
+      
+
     <?php
   endModule(); // Now a function call
     printMyCode();

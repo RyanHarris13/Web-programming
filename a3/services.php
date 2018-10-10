@@ -59,10 +59,6 @@
     
           </div>
         
-      <article id='Front page things'>
-
-       
-      </article>
     <?php
   endModule(); // Now a function call
     printMyCode();
