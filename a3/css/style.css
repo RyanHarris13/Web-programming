@@ -218,7 +218,7 @@ li a:hover {
 }
 
 .Title {
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 200px;
     z-index: 15;
@@ -229,7 +229,7 @@ li a:hover {
 }
 
 .ColText1{
-    position: sticky;
+    position: relative;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
@@ -243,7 +243,7 @@ li a:hover {
 
 }
 .ColText2{
-    position: sticky;
+    position: relative;
     width: 30%;
     
     top: 50%;
@@ -254,6 +254,7 @@ li a:hover {
     
 }
 .ColText2 img{
+    position: relative;
     border-radius: 20%;
     max-width: 100%;
     height: auto;
@@ -262,7 +263,7 @@ li a:hover {
     display: block;
 }
 .ColText3{
-    position: sticky;
+    position: relative;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
