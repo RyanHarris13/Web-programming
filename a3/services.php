@@ -65,4 +65,5 @@
       </article>
     <?php
   endModule(); // Now a function call
+    printMyCode();
 ?>

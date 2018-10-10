@@ -6,15 +6,19 @@ input[type=number]::-webkit-inner-spin-button {
         -webkit-appearance: none !important;
     }
 </style>
- <?php
-    session_start();
+  <?php
+   // session_start();
     include_once('tools.php');
-    topModule('Exit and Bond cleaning- Home');
+    topModule('Exit and Bond cleaning- Services');
+   
+    styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
+    dataTable('services.txt' )
         ?>
+
  
    
 
-        <img src='../../media/ExitClean.jpg' alt='empty house picture' />
+       
 
           <div class='sidetext'>
           <p>With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it.
@@ -26,25 +30,24 @@ input[type=number]::-webkit-inner-spin-button {
           
           </div>
           <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post">
+               <img src='../../media/ExitClean.jpg' alt='empty house picture' />
               <input type="hidden" name="id" value="SRVC001">
               <p>Option: Cleaning type </p>
               <p>Time, level of cleaning detail and price go up the further down the list</p>
-            <select name="option">
+            <select name="option",>
+                <option value=""selected>Select your option</option>
                 <option value="Fast">Fast and light: $100</option>
                 <option value="moderate">Moderate: $125</option>
-                <option value="thorough" selected>Thorough: $150</option>
+                <option value="thorough">Thorough: $150</option>
                 <option value="meticulous">Meticulous: $200</option>
                 
             </select>
-         <div class="item">
-    <p>Quantity picker Form for rooms</p>
-    <div class="image">
-      <img src="" alt="" />
-    </div>
+        <p>Quantity picker Form for rooms</p>
+   
  
     <div class="description">
       
-    </div>
+ 
  
    <p class='quantity'>Quantity</p>
                   <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
@@ -55,13 +58,9 @@ input[type=number]::-webkit-inner-spin-button {
 <input id='submit' type="submit" value="Submit" disabled>
 
       
-      
-    
-
-          </form>
+     </form>
           
-      </article>
-          </div>
+      
 <script>
       function myAdd() {
           var num = document.getElementById("qty");
@@ -94,4 +93,5 @@ input[type=number]::-webkit-inner-spin-button {
       </script>
     <?php
   endModule(); // Now a function call
+    printMyCode();
 ?>
