@@ -74,16 +74,16 @@ function printMyCode() {
 }
 
    
-   function ReadFile($file){
+   function Read($file){
    $fp = fopen('$file','r'); 
  if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
       while ( $cells = fgetcsv($fp, 0, "\t") ) { 
         for ($x=1; $x<count($cells); $x++) 
-          $pumps[$cells[0]][$headings[$x]]=$cells[$x]; 
+          $product[$cells[0]][$headings[$x]]=$cells[$x]; 
       } 
     } 
     fclose($fp); 
-    preShow($pumps); 
+    preShow($product); 
    }
 
 function php2js( $arr, $arrName ) {

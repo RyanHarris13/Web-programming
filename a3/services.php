@@ -10,7 +10,7 @@
 
             <h5><strong>Our Services</strong></h5>
             <?php
-            ReadFile('products.txt');
+            Read('products.txt');
             ?>
 
         </div>
