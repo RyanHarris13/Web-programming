@@ -237,7 +237,7 @@ li a:hover {
 }
 
 .ColText1{
-    position: relative;
+    position: static;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
@@ -251,7 +251,7 @@ li a:hover {
 
 }
 .ColText2{
-    position: relative;
+    position: static;
     width: 30%;
     
     top: 50%;
@@ -262,7 +262,7 @@ li a:hover {
     
 }
 .ColText2 img{
-    position: relative;
+    position: static;
     border-radius: 20%;
     max-width: 100%;
     height: auto;
@@ -271,7 +271,7 @@ li a:hover {
     display: block;
 }
 .ColText3{
-    position: relative;
+    position: static;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
