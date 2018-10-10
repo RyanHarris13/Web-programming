@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
     <?php
-   // session_start();
     session_start();
     include_once('tools.php');
-    topModule('Exit and Bond cleaning- Services');
-   
     topModule('Exit and Bond cleaning- Home');
         ?>
     
