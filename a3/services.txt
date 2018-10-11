@@ -1,0 +1,7 @@
+ID	OID	title	Description	Option	Price
+--CL001	LOW	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	100.00	
+--CL001	MED	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	125.00
+--CL001	HIGH	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	150.00
+--CL001	VHIGH	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	200.00
+--CL002
+--CL003

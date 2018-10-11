@@ -233,12 +233,11 @@ li a:hover {
 }
 
 .ColText1{
-<<<<<<< HEAD
+
 
     position: relative;
-=======
-    position: static;
->>>>>>> master
+
+
     width: 20%;
     
     top: 50%;
@@ -257,8 +256,7 @@ li a:hover {
 <<<<<<< HEAD
     position: relative;
      top: 50%;
-=======
-    position: static;
+
     width: 30%;
     
     top: 50%;
@@ -272,7 +270,7 @@ li a:hover {
 .ColText2 img{
 <<<<<<< HEAD
 =======
-    position: static;
+    position: relative;
 >>>>>>> master
     border-radius: 20%;
     max-width: 100%;
@@ -290,7 +288,7 @@ li a:hover {
     padding: 10px;
 }
 .ColText3{
-    position: static;
+    position: relative;
     width: 20%;
     
     top: 50%;

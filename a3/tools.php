@@ -89,18 +89,30 @@ function dataTable($file){
 function php2js( $arr, $arrName ) {
   $lineEnd="";
   echo "<script>\n";
-  echo "  var $arrName = {\n";
-  foreach ($arr as $key => $value) {
-    echo "$lineEnd    $key : $value";
-    $lineEnd = ",\n";
-  }
-  echo "  \n};\n";
+  echo "  var $arrName = ".json_encode($arr, JSON_PRETTY_PRINT);
   echo "</script>\n\n";
 }
+
 function styleCurrentNavLink( $css ) {
   $here = $_SERVER['SCRIPT_NAME']; 
   $bits = explode('/',$here); 
   $filename = $bits[count($bits)-1]; 
   echo "<style>nav a[href$='$filename'] { $css }</style>";
+}
+function check_cc($cc, $extra_check = false){
+    $cards = array(
+        "visa" => "(4\d{12}(?:\d{3})?)",
+        "amex" => "(3[47]\d{13})",
+        "mastercard" => "(5[1-5]\d{14})"
+    );
+
+    $names = array("Visa", "American Express", "Mastercard");
+    $matches = array();
+    $pattern = "#^(?:".implode("|", $cards).")$#";
+    $result = preg_match($pattern, str_replace(" ", "", $cc), $matches);
+    if($extra_check && $result > 0){
+        $result = (validatecard($cc))?1:0;
+    }
+    return ($result>0)?$names[sizeof($matches)-2]:false;
 }
 ?>

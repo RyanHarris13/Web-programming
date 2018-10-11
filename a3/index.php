@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
     <?php
-   // session_start();
+    session_start();
     include_once('tools.php');
     topModule('index');
    
@@ -13,7 +13,7 @@
 <div class="hero-image">
         <div class="hero-text">
     </div>
-    <h1>Clean With Style </h1>
+    <!--<h1>Clean With Style </h1>
         </div>
       <div class="ColText1">
 
@@ -44,6 +44,7 @@
         </p2>
 
       </div>
+    -->
 <?php
   endModule(); // Now a function call
     printMyCode();

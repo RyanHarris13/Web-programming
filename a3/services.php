@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
   <?php
-   // session_start();
+    session_start();
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Services');
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
@@ -27,8 +27,8 @@
               rooms done to an exeptional standard, with addition to a full steam cleaned carpet if neccicary.
               We promise that the property will be in selling condition for future tennants.
             </p2> 
-            <form action ="service.php?id=s1" >
-                <button type="Submit">Read More:</button>
+            <form action ="service.php?id=s1" method="get" >
+                <button type="Submit"><a href="service.php?id=s1">Read More:</a></button>
               </form>
           </div>
     

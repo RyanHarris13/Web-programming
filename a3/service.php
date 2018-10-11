@@ -7,12 +7,19 @@ input[type=number]::-webkit-inner-spin-button {
     }
 </style>
   <?php
-   // session_start();
+   session_start();
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Service');
    
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-    dataTable('services.txt' )
+    dataTable('services.txt' );
+    
+        if (isset($_GET['id']) && this_id_actually_exists($_GET['id'])) {
+  // show a single product or service matching id with a purchasing form
+} else {
+  header("Location: services.php");
+}
+
         ?>
 
  
