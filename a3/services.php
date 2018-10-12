@@ -6,10 +6,8 @@
     topModule('Exit and Bond cleaning- Services');
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
    dataTable('services.txt' )
-    
+    ?>
    
-        ?>
-
         <div class="Title"> 
 
             <h5><strong>Our Services</strong></h5>
@@ -18,7 +16,7 @@
             ?>
 
         </div>
-        <div class="exit">
+        <!--<div class="exit">-->
 
             <h3>Exit Clean</h3>
             <p2>
@@ -27,12 +25,72 @@
               rooms done to an exeptional standard, with addition to a full steam cleaned carpet if neccicary.
               We promise that the property will be in selling condition for future tennants.
             </p2> 
-            <form action ="service.php?id=s1" method="get" >
-                <button type="Submit"><a href="service.php?id=s1">Read More:</a></button>
-              </form>
-          </div>
+           <button class="open-button" onclick="openForm()">Open Form</button>
+
+            <div class="form-popup" id="myForm">
+                <form action= "https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post" class = "form-container">
+               <img src='../../media/ExitClean.jpg' alt='empty house picture' />
+              <input type="hidden" name="id" value="SRVC001">
+              <p>Option: Cleaning type </p>
+              <p>Time, level of cleaning detail and price go up the further down the list</p>
+            <select name="option",>
+                <option value=""selected>Select your option</option>
+                <option value="Fast">Fast and light: $100</option>
+                <option value="moderate">Moderate: $125</option>
+                <option value="thorough">Thorough: $150</option>
+                <option value="meticulous">Meticulous: $200</option>
+                
+            </select>
+   <p class='quantity'>Quantity of rooms</p>
+                  <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
+                  <input class='number' id='qty' type='text' name='qty' value='0'>
+                  <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
+                  <br>
+                    
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+           <!-- </div>-->
+            </div>
+    <script>
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
+        
+      function myAdd() {
+          var num = document.getElementById("qty");
+          var int = num.value;
+          int++;
+        num.value = int;
+        if (document.getElementById('qty').value == "0") {
+            document.getElementById('submit').isValue = false;
+          } else {
+            document.getElementById('submit').isValue = true;
+          }
+      }
+      function mySubtract() {
+          var num = document.getElementById("qty");
+          var int = num.value;
+          if (int > 0) {
+          int--;
+        num.value = int;
+          } else {
+          num.value = 0;
+          }
+      }
+      function myZero() {
+          if (document.getElementById('qty').value == 0) {
+            document.getElementById('submit').disabled = true;
+          } else {
+            document.getElementById('submit').disabled = false;
+          }
+      }
+     
+</script>
     
-          <div class="return">
+          <!--<div class="return">-->
     
             <h3>Bond Return</h3>
             <p2> 
@@ -45,9 +103,9 @@
               <form action ="service.php" >
             <button type="Submit">Read More:</button>
               </form>
-          </div>
+          <!--</div>-->
     
-          <div class="yeet">
+          <!--<div class="yeet">-->
     
             <h3>Entry Clean</h3>
             <p2> 
@@ -58,7 +116,7 @@
 
                           <button type="">Read More:</button>
     
-          </div>
+          <!--</div>-->
         
     <?php
   endModule(); // Now a function call
