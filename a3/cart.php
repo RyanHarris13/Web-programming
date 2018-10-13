@@ -4,10 +4,18 @@ require_once('tools.php');
 topModule("Cart");
 styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
+if (isset($_POST["add"]))          // pizza shop 3 - set / replace cart 
+      $_SESSION['cart']=$_POST; 
+    else if (isset($_POST["append"]))  // pizza shop 4 - append to cart 
+      $_SESSION['cart'][]=$_POST; 
+    else if (isset($_POST["delete"]))  // pizza shop 4 - empty cart 
+      unset ($_SESSION['cart']); 
+
 if (isset($_POST['cancel'])) {
   unset($_SESSION['cart']);
   header("Location: services.php");
 }
+
 
 if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
   // qty will always be positive due to a javascript that disables the button
@@ -31,6 +39,8 @@ $title = $_POST['Title'];
   echo <<<"MAIN"
 <div class='cart'>
   <h1>Your Cart</h1>
+  preShow($_POST);
+    preShow($_SESSION);
 </div>
 <div class='row'>
   <div class='left'>
@@ -46,19 +56,17 @@ $title = $_POST['Title'];
         <input type="hidden" name='price' value="$price">
 
         <p class='quantity'>Number of rooms: $qty</p>
-
+        <p><input type='submit' name='add' value='Add to Cart'/> </p>
        <p><input type='submit' name='cancel' value='Empty Cart'/> or <input id='submit' type="submit" name="add" value="Go to Checkout"/></p>
 </form>
 
 </div>
 </div>
 MAIN;
-preShow($_POST);
-    preShow($_SESSION);
+
 ?>
 <?php
   endModule(); // Now a function call
     
    printMyCode();
 ?>
-

@@ -23,37 +23,18 @@ if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
 
 $price = $_POST['Price'];
 $title = $_POST['Title'];
-
-
 ?>
-
 <?php
-  echo <<<"MAIN"
-<div class='cart'>
-  <h1>Your Cart</h1>
-</div>
-<div class='row'>
-  <div class='left'>
-    <img src="../../media/$id.jpg" alt='$id'>
-  </div>
- 
-      <h3>$title</h1>
-   
-
-      <form action='checkout.php' method="post">
-         <p>Price: $$price</p>
-        <input type="hidden" name='id' value="$id">
-        <input type="hidden" name='price' value="$price">
-
-        <p class='quantity'>Number of rooms: $qty</p>
-
-       <p><input type='submit' name='cancel' value='Empty Cart'/> or <input id='submit' type="submit" name="add" value="Go to Checkout"/></p>
-</form>
-
-</div>
-</div>
-MAIN;
+$Name = '';
+$Email = '';
+$Address = '';
+$MobilePhone= '';
+$CreditCard = '';
+$CardExprDate = '';
+$message = 'Please enter your details into the form below';
 ?>
+
+
 <?php
   endModule(); // Now a function call
     preShow($_POST);
