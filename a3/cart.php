@@ -36,11 +36,12 @@ $title = $_POST['Title'];
 ?>
 
 <?php
+preShow($_POST);
+preShow($_SESSION);
   echo <<<"MAIN"
 <div class='cart'>
   <h1>Your Cart</h1>
-  preShow($_POST);
-    preShow($_SESSION);
+  
 </div>
 <div class='row'>
   <div class='left'>
@@ -56,7 +57,7 @@ $title = $_POST['Title'];
         <input type="hidden" name='price' value="$price">
 
         <p class='quantity'>Number of rooms: $qty</p>
-        <p><input type='submit' name='add' value='Add to Cart'/> </p>
+
        <p><input type='submit' name='cancel' value='Empty Cart'/> or <input id='submit' type="submit" name="add" value="Go to Checkout"/></p>
 </form>
 

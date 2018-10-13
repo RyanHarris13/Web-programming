@@ -4,12 +4,6 @@ require_once('tools.php');
 topModule("Cart");
 styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
-if (isset($_POST['cancel'])) {
-  unset($_SESSION['cart']);
-  header("Location: services.php");
-}
-
-if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
   // qty will always be positive due to a javascript that disables the button
   // when the qty <= 0
   $id = $_POST['ID'];
@@ -17,9 +11,7 @@ if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
   $qty = $_POST['qty'];
   $_SESSION['cart'][$id]['OID'] = $oid;
   $_SESSION['cart'][$id]['qty'] = $qty;
-} else {
-  echo "<p>Invalid order, item is not added to cart</p>";
-}
+
 
 $price = $_POST['Price'];
 $title = $_POST['Title'];
@@ -33,7 +25,15 @@ $CreditCard = '';
 $CardExprDate = '';
 $message = 'Please enter your details into the form below';
 ?>
-
+<form action="orders.txt" method="post">
+    <p><input type='text' name='Name' value='<?php echo $Name; ?>' /></p>
+    <p><input type='email' name='Email' value='<?php echo $Email; ?>' /></p>
+    <p><input type='text' name='Address' value='<?php echo $Address; ?>' /></p>
+    <p><input type='text' name='MobilePhone' value='<?php echo $MobilePhone; ?>' /></p>
+    <p><input type='text' name='Creditcard' value='<?php echo $CreditCard; ?>' /></p>
+    <p><input type='date' name='CardEXPDate' value='<?php echo $CardExprDate; ?>' /></p>
+    <p><input type=submit value='Submit' /></p>
+</form>
 
 <?php
   endModule(); // Now a function call
@@ -41,4 +41,3 @@ $message = 'Please enter your details into the form below';
     preShow($_SESSION);
    printMyCode();
 ?>
-
