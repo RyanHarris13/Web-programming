@@ -131,7 +131,8 @@ function price($num1, $num2) {
     $number = $num1 * $num2;
     return number_format((float)$number, 2, '.', '');
   }
-
+?>
+<script>
 function validateCC($cc_num, $type) {
 
     if($type == "Card") {
@@ -177,4 +178,4 @@ function validateCC($cc_num, $type) {
     
 }
 
-?>
+</script>
