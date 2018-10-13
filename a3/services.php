@@ -28,12 +28,12 @@ input[type=number]::-webkit-inner-spin-button {
 
     <form action="service.php" method="post">
     
-        <form action="service.php?ID=CL01" method="get">
-            <img src='../../media/ExitClean.jpg' alt='empty house picture' />
+        <form action="service.php?ID=--CL01" method="get">
+            <img src='../../media/--CL01.jpg' alt='empty house picture' />
             <p>$100.00</p>
             <p2>
                 This clean is for when tennants leave the premise, this is a total overhaul clean to remove anything and everything
-                they have left behind <a href="service.php?ID=CL01">More Info</a>
+                they have left behind <a href="service.php?ID=--CL01">More Info</a>
             </p2>
         </form>
     </form>
@@ -41,11 +41,11 @@ input[type=number]::-webkit-inner-spin-button {
 <!--<div class="exit">-->
 
     <h3>Bond Return</h3>
-    <form action="service.php?ID=CL02" method="get">
-        <img src='../../media/ExitClean.jpg' alt='empty house picture' />
+    <form action="service.php?ID=--CL02" method="get">
+        <img src='../../media/--CL02.jpg' alt='empty house picture' />
         <p>$200.00</p>
         <p2>
-            This cleaning service is directed at tennants that wish to get their bond returned.<a href="service.php?ID=CL02">More Info</a>
+            This cleaning service is directed at tennants that wish to get their bond returned.<a href="service.php?ID=--CL02">More Info</a>
         </p2>
 
     </form>
@@ -59,7 +59,7 @@ input[type=number]::-webkit-inner-spin-button {
         You cant have tennants entering a new home with cobwebs and dust everywhere, this clean is aimed at properties that
         have been purchaced and need a touch up before the tennants move in. This clean is a lighter clean to keep the house
         highly presentable and comfortable for the new tennants.
-        <a href="service.php?ID=CL03">More Info</a>
+        <a href="service.php?ID=--CL03">More Info</a>
     </p2>
 
 

@@ -8,15 +8,16 @@ styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
 $product = readData('services.txt');
 
-if (isset($_GET['id']) && array_key_exists($_GET['id'], $product)) {
-  $ID =  $_GET['id'];
+if (isset($_GET['ID']) && array_key_exists($_GET['ID'], $product)) {
+  $ID =  $_GET['ID'];
 } else {
   header("Location: services.php");
 }
 
+
 $title = $product[$ID]["FL"]["Title"];
 $price = $product[$ID]["FL"]["Price"];
-$description = $product[$ID]["FLx"]["Description"];
+$description = $product[$ID]["FL"]["Description"];
 $options = retrieveOptions($product[$ID]);
     ?>
 <?php
@@ -29,13 +30,13 @@ $options = retrieveOptions($product[$ID]);
 </div>
 <form action="cart.php" method="post">
         <input type='hidden' name='title' value='$title'>
-        <input type="hidden" name='id' value="$id">
+        <input type="hidden" name='id' value="$ID">
         <input type="hidden" name='price' value="$price">
-        
-        <img src='../../media/$id.jpg' alt='$title' />
+    
+        <img src='../../media/$ID.jpg' alt='$title' />
     
         <p>Option: Cleaning type Time, level of cleaning detail and price go up the further down the list</p>
-    <select id="option" name="oid" value="please select">
+    <select id="option" name="OID" value="please select">
         $options
     </select>
         
@@ -46,7 +47,7 @@ $options = retrieveOptions($product[$ID]);
         <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
         <br>
     </div>
-    <input id='submit' type="submit" value="Add-to-Cart" disabled>
+   <input id='submit' type="submit" name="add" value="Add to Cart" disabled>
 
 
 </form>
@@ -83,10 +84,13 @@ MAIN;
             document.getElementById('submit').disabled = false;
         }
     }
+    function myPriceChange(){
+       
+    }
 
 </script>
 
 <?php
   endModule(); // Now a function call
-printMyCode();
+//printMyCode();
 ?>
