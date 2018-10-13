@@ -153,7 +153,7 @@ function validateCC($cc_num, $type) {
     $pattern = "/^([4]{1})([0-9]{12,15})$/";//Visa
     if (preg_match($pattern,$cc_num)) {
     $verified = true;
-    echo "THIS IS A VISA CARD"
+    echo "THIS IS A VISA CARD";
     //"MAKE VISA ICON APPEAR HERE"
     } else {
     $verified = false;
@@ -176,6 +176,9 @@ function validateCC($cc_num, $type) {
     }
     
     
-}
+
+}  
+
+
 
 </script>
