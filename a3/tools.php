@@ -118,4 +118,13 @@ function check_cc($cc, $extra_check = false){
     }
     return ($result>0)?$names[sizeof($matches)-2]:false;
 }
+
+function retrieveOptions($product){
+    $read = "";
+    foreach ($product as $oid = > $details){
+$read .= "<option value = '$oid'>{$details["Option"]}</option>";
+    }
+    return $read;
+    }
+}
 ?>
