@@ -2,44 +2,48 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     font-family: "Arial", Helvetica, sans-serif;
-    
-  position: relative;
+
+    position: relative;
 
 }
+
 .form-popup {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
 }
 
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
 }
 
 /* Full-width input fields */
-.form-container input[type=text], .form-container input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-} 
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
 .Login form {
     border: 3px solid #f1f1f1;
-   
+
 }
 
 
- 
 
-input[type=email], input[type=password] {
+
+input[type=email],
+input[type=password] {
     width: 60%;
     padding: 18px 24px;
     margin: 14px 0;
@@ -50,7 +54,7 @@ input[type=email], input[type=password] {
 
 .exit button {
 
-    background-color:  #4264c0;
+    background-color: #4264c0;
     background-color: lightskyblue;
 
     background-color: lightskyblue;
@@ -63,8 +67,9 @@ input[type=email], input[type=password] {
     cursor: pointer;
     width: 100%;
 }
-.return button{
-    background-color:  #4264c0;
+
+.return button {
+    background-color: #4264c0;
     background-color: lightskyblue;
 
 
@@ -74,29 +79,31 @@ input[type=email], input[type=password] {
     color: white;
     padding: 14px 20px;
     margin: 20px 0;
-    border: none; 
+    border: none;
     cursor: pointer;
     width: 100%;
 }
-.yeet button{
-    background-color:  #4264c0;
+
+.yeet button {
+    background-color: #4264c0;
     background-color: lightskyblue;
-    
+
     background-color: lightskyblue;
     background-color: #36558F;
-   
+
     color: white;
     padding: 14px 20px;
     margin: 20px 0;
-    border: none; 
-   
+    border: none;
+
     cursor: pointer;
     width: 100%;
- }
+}
 
 exit button:hover {
     opacity: 0.8;
 }
+
 .return button:hover {
     opacity: 0.8;
 }
@@ -133,11 +140,12 @@ span.psw {
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
-       display: block;
-       float: none;
+        display: block;
+        float: none;
     }
+
     .cancelbtn {
-       width: 100%;
+        width: 100%;
     }
 }
 
@@ -157,10 +165,11 @@ ul {
     list-style-type: none;
     background-color: #36558f;
     overflow: auto;
-    
+
 }
- li img{
-    width:  50 px;
+
+li img {
+    width: 50 px;
 
     float: left;
     border-radius: 25%;
@@ -169,7 +178,7 @@ ul {
 
 li {
     float: right;
-    
+
     border-left: 3px solid black;
 
 }
@@ -209,19 +218,21 @@ form {
     size: 20px;
     padding: 1%;
     align-content: center;
-   
-    
+
+
 
 }
-.exit form{
-    
- color: white;
-    background-color: white!important;
+
+.exit form {
+
+    color: white;
+    background-color: white !important;
     size: 20px;
 }
-.return form{
-     color: white;
-    background-color: white!important;
+
+.return form {
+    color: white;
+    background-color: white !important;
     size: 20px;
 }
 
@@ -234,8 +245,6 @@ option {
 p.one {
     border-style: inset;
     border-width: 20px
-    
-
 }
 
 li a:hover {
@@ -244,12 +253,14 @@ li a:hover {
 }
 
 
-#services  {
+#services {
     border: 1px solid black;
 }
-.quanitity{
+
+.quanitity {
     all: none;
 }
+
 .Title {
     position: relative;
     width: 300px;
@@ -259,12 +270,12 @@ li a:hover {
     left: 47%;
     margin: -100px 0 0 -150px;
     text-align: center;
-      border-bottom: 1% solid #36558f ;
+    border-bottom: 1% solid #36558f;
 }
 
 
-.ColText1{
- position: absolute;
+.ColText1 {
+    position: absolute;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
@@ -277,18 +288,20 @@ li a:hover {
     font-family: "Times New Roman", Times, serif;
 
 }
-.ColText2{
+
+.ColText2 {
     position: absolute;
     width: 30%;
-    
+
     top: 50%;
     left: 45%;
     margin: -90px 0 0 -160px;
     text-align: center;
-    
-    
+
+
 }
-.ColText2 img{
+
+.ColText2 img {
     border-radius: 20%;
     max-width: 100%;
     height: auto;
@@ -296,8 +309,9 @@ li a:hover {
     margin-right: auto;
     display: block;
 }
-.ColText3{
-position: absolute;
+
+.ColText3 {
+    position: absolute;
     width: 20%;
     border-radius: 25px;
     padding: 10px;
@@ -309,12 +323,13 @@ position: absolute;
     border-width: 2px;
     font-family: "Times New Roman", Times, serif;
 }
-p3{
+
+p3 {
     padding: 50%;
     border: 1px solid #4CAF50;
 }
 
-.exit{
+.exit {
     background-image: url('');
     background-position: center;
     background-repeat: no-repeat;
@@ -323,7 +338,7 @@ p3{
 
     position: relative;
     width: 20%;
-    
+
     top: 50%;
     left: 15%;
     margin: -100px 0 0 -150px;
@@ -334,7 +349,8 @@ p3{
     border-radius: 25px;
     padding: 10px;
 }
-.return{
+
+.return {
     background-image: url('');
     background-position: center;
     background-repeat: no-repeat;
@@ -343,7 +359,7 @@ p3{
 
     position: relative;
     width: 20%;
-    
+
     top: 70%;
     left: 45%;
     margin: -100px 0 0 -150px;
@@ -354,7 +370,8 @@ p3{
     border-radius: 25px;
     padding: 10px;
 }
-.yeet{
+
+.yeet {
     background-image: url('');
     background-position: center;
     background-repeat: no-repeat;
@@ -363,7 +380,7 @@ p3{
 
     position: relative;
     width: 20%;
-    
+
     top: 90%;
     left: 75%;
     margin: -100px 0 0 -150px;
@@ -379,7 +396,7 @@ p3{
 
 
 .bot {
-    
+
     position: relative;
     bottom: 0;
     background-color: #36558f;
@@ -389,12 +406,12 @@ p3{
     border-style: hidden;
     border-width: 1%;
 
-    
-   
+
+
 
 }
 
-.bot2{ 
+.bot2 {
     position: relative;
     top: 95%;
     background-color: #36558f;
@@ -405,46 +422,48 @@ p3{
 
 
 h5 {
-font-size: 42px;
-font-family: Helvetica, sans-serif;
-color: #131515;
+    font-size: 42px;
+    font-family: Helvetica, sans-serif;
+    color: #131515;
 
 }
 
 option {
-color: black;
+    color: black;
 
 
 }
+
 .sidetext {
     position: relative;
     width: 40%;
-    
-    left: 45%; 
+
+    left: 45%;
     Top: 30%;
 
 }
+
 .hero-image {
-background-image: linear-gradient(rgba(219, 216, 216, 0.5), rgba(219, 216, 216, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
-  height: 17vh;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  position: relative !important;
-          
+    background-image: linear-gradient(rgba(219, 216, 216, 0.5), rgba(219, 216, 216, 0.5)), url("https://cleanmyspace.com/wp-content/uploads/2017/08/how-to-hire-a-cleaning-service.jpg");
+    height: 17vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+
 }
 
 .hero-text {
-  text-align: bottom-left !important;
-  position: absolute !important;
-  top: 80% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  color: white !important;
+    text-align: bottom-left !important;
+    position: absolute !important;
+    top: 80% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    color: white !important;
 }
 
 
-.exot{ 
+.exot {
     text-align: center;
     align-self: center;
     align-content: center;

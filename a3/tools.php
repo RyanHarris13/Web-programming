@@ -66,17 +66,18 @@ function printMyCode() {
   echo "</pre>";
 }
    
-   function Read($file){
-   $fp = fopen($file,'r'); 
- if (($headings = fgetcsv($fp, 0, "\t")) !== false) { 
-      while ( $cells = fgetcsv($fp, 0, "\t") ) { 
-        for ($x=1; $x<count($cells); $x++) 
-          $pumps[$cells[0]][$headings[$x]]=$cells[$x]; 
-      } 
-    } 
-    fclose($fp); 
-    preShow($pumps); 
-   }
+  function readData($file) {
+  $service = array();
+  $fp = fopen($file, 'r');
+  if (($ids = fgetcsv($fp, 0, "\t")) !== false) {
+    while ($cells = fgetcsv($fp, 0, "\t")) {
+      for ($x = 1; $x<count($cells); $x++)
+        $service[$cells[0]][$cells[1]][$ids[$x]] = $cells[$x];
+    }
+  }
+  fclose($fp);
+  return $service;
+  }
 function dataTable($file){
     echo"<table align = 'center' class = 'services'>\n\n";
     $fp = fopen($file, 'r');
@@ -121,10 +122,9 @@ function check_cc($cc, $extra_check = false){
 
 function retrieveOptions($product){
     $read = "";
-    foreach ($product as $oid = > $details){
-$read .= "<option value = '$oid'>{$details["Option"]}</option>";
+    foreach ($product as $oid => $details) {
+      $read .= "<option value='$oid'>{$details["Option"]}</option>";
     }
     return $read;
-    }
-}
+  }
 ?>

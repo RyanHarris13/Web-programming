@@ -1,11 +1,13 @@
 ID	OID	title	Description	Option	Price
-CL001	FL	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	100.00	
-CL001	Mod	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	125.00
-CL001	Thru	Exit Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	150.00
-CL001	Met	Exit Clean	With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it.
-             This package is best for people who want to leave on good terms with whoever is in your house after, 
-             or landlords with some particularily messy tenants. This clean will make sure that you are able to sell / rent 
-             the house to any new prospectors. This clean covers all rooms, bathrooms and the kitchen in great detail. Full
-             steam cleaned carpets and more.	Meticulous	200.00
-CL002
-CL003
+CL01	FL	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	100.00	
+CL01	Mod	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	125.00
+CL01	Thru	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	150.00
+CL01	Met	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	200.00
+CL02	FL	Bond-Return	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	100.00	
+CL02	Mod	Bond-Return	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	125.00
+CL02	Thru	Bond-Return	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	150.00
+CL03	Met	Bond-Return	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	200.00
+CL03	FL	Entry-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	100.00	
+CL03	Mod	Entry-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	125.00
+CL03	Thru	Entry-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	150.00
+CL03	Met	Entry-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	200.00
