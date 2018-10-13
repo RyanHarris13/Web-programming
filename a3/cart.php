@@ -21,7 +21,7 @@ if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
   echo "<p>Invalid order, item is not added to cart</p>";
 }
 
-$price = Price($_POST['qty'], $_POST['Price']);
+$price = $_POST['Price'];
 $title = $_POST['Title'];
 
 
@@ -39,10 +39,9 @@ preShow($_SESSION);
   <div class='left'>
     <img id="content" src="../../media/$id.png" alt='$id' width="700" height="500">
   </div>
-  <div class='right'>
+ 
       <h3>$title</h1>
-
-        <div><span class="price">$$price</span></div>
+      <p>Price: $$price</p>
 
       <form action='checkout.php' method="post">
 
@@ -53,7 +52,7 @@ preShow($_SESSION);
 
        <p><input type='submit' name='cancel' value='Empty Cart'/> or <input id='submit' type="submit" name="add" value="Go to Checkout"/></p>
 </form>
-</div>
+
 </div>
 </div>
 MAIN;
