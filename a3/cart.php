@@ -33,7 +33,7 @@ preShow($_POST);
 preShow($_SESSION);
   echo <<<"MAIN"
 <div class='cart'>
-  <h1>Your Cart</h1>
+  <h1>Your Cart:</h1>
   
 </div>
 <div class='row'>
