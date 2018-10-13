@@ -178,6 +178,6 @@ function validateCC($cc_num, $type) {
 
 }  
 
-}
+
 
 ?>
