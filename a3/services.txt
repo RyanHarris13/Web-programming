@@ -1,5 +1,9 @@
-ID	OID	title	Description	Option	Price
---CL01	FL	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	100.00	
+ID	OID	Title	Description	Option	Price
+--CL01	FL	Exit-Clean	With our dedicated and experienced cleaners, your home will be in tip top shape for when you leave it.
+             This package is best for people who want to leave on good terms with whoever is in your house after, 
+             or landlords with some particularily messy tenants. This clean will make sure that you are able to sell / rent 
+             the house to any new prospectors. This clean covers all rooms, bathrooms and the kitchen in great detail. Full
+             steam cleaned carpets and more	Fast And Light	100.00	
 --CL01	Mod	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	100.00
 --CL01	Thru	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	100.00
 --CL01	Met	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	100.00

@@ -72,7 +72,7 @@ function printMyCode() {
   if (($ids = fgetcsv($fp, 0, "\t")) !== false) {
     while ($cells = fgetcsv($fp, 0, "\t")) {
       for ($x = 1; $x<count($cells); $x++)
-        $service[$cells[0]][$cells[1]][$ids[$x]] = $cells[$x];
+          $service[$cells[0]][$cells[1]][$ids[$x]]= $cells[$x];
     }
   }
   fclose($fp);
