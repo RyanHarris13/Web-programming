@@ -1,4 +1,4 @@
- <?php
+<?php
 function topModule($pageTitle) {
     session_start();
     $output = <<<"TOPMODULE"

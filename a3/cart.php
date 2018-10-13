@@ -25,9 +25,6 @@ $price = $_POST['Price'];
 $title = $_POST['Title'];
 
 
-preShow($_POST);
-preShow($_SESSION);
-
 ?>
 
 <?php
@@ -37,18 +34,18 @@ preShow($_SESSION);
 </div>
 <div class='row'>
   <div class='left'>
-    <img id="content" src="../../media/$id.png" alt='$id' width="700" height="500">
+    <img src="../../media/$id.jpg" alt='$id'>
   </div>
  
       <h3>$title</h1>
-      <p>Price: $$price</p>
+   
 
       <form action='checkout.php' method="post">
-
+         <p>Price: $$price</p>
         <input type="hidden" name='id' value="$id">
         <input type="hidden" name='price' value="$price">
 
-        <p class='quantity'>Quantity: <span>$qty</span></p>
+        <p class='quantity'>Number of rooms: $qty</p>
 
        <p><input type='submit' name='cancel' value='Empty Cart'/> or <input id='submit' type="submit" name="add" value="Go to Checkout"/></p>
 </form>
@@ -57,7 +54,10 @@ preShow($_SESSION);
 </div>
 MAIN;
 ?>
+<?php
+  endModule(); // Now a function call
+    preShow($_POST);
+    preShow($_SESSION);
+   printMyCode();
+?>
 
-<form method='post'>
-
-</form>

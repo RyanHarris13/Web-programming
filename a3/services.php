@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang='en'>
 <?php
-    //session_start();
+    session_start();
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Services');
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-   
-    preShow($_POST);
-    preShow($_SESSION);
     ?>
+    <div class="hero-image">
+    <div class="hero-text">
+    </div>
+    <h1>Our Services:</h1>
+</div>
 <style>
     input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
         -webkit-appearance: none !important;
     </style>
 
-<div class="Title">
-
-    <h5><strong>Our Services</strong></h5>
-
-
-</div>
 <!--<div class="exit">-->
 
     <h3>Exit Clean</h3>
@@ -136,5 +132,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 <?php
   endModule(); // Now a function call
+    preShow($_POST);
+    preShow($_SESSION);
    printMyCode();
 ?>

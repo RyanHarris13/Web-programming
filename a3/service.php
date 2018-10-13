@@ -22,8 +22,10 @@ $options = retrieveOptions($product[$ID]);
     ?>
 <?php
      echo <<<"MAIN"
-<div class="Title">
-    <h5><strong>$title</strong></h5>
+<div class="hero-image">
+    <div class="hero-text">
+    </div>
+    <h1>$title</h1>
 </div>
 <form action="cart.php" method="post">
     <p>$description</p>
@@ -34,7 +36,8 @@ $options = retrieveOptions($product[$ID]);
         <img src='../../media/$ID.jpg' alt='$title' />
         
         <p>Option: Cleaning type Time, level of cleaning detail and price go up the further down the list</p>
-    <select id="option" name="OID" value="please select">
+    <select id="option" name="OID" required>
+        <option value="NULL" disabled selected hidden>Please select an option:</option>
         $options
     </select>
         
