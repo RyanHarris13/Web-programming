@@ -4,12 +4,6 @@ require_once('tools.php');
 topModule("Cart");
 styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
-if (isset($_POST["add"]))          // pizza shop 3 - set / replace cart 
-      $_SESSION['cart']=$_POST; 
-    else if (isset($_POST["append"]))  // pizza shop 4 - append to cart 
-      $_SESSION['cart'][]=$_POST; 
-    else if (isset($_POST["delete"]))  // pizza shop 4 - empty cart 
-      unset ($_SESSION['cart']); 
 
 if (isset($_POST['cancel'])) {
   unset($_SESSION['cart']);

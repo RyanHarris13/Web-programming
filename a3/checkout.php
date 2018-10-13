@@ -6,11 +6,6 @@ styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
   // qty will always be positive due to a javascript that disables the button
   // when the qty <= 0
-  $id = $_POST['ID'];
-  $oid = $_POST['OID'];
-  $qty = $_POST['qty'];
-  $_SESSION['cart'][$id]['OID'] = $oid;
-  $_SESSION['cart'][$id]['qty'] = $qty;
 
 
 $price = $_POST['Price'];
