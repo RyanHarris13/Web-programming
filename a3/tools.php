@@ -122,10 +122,14 @@ function check_cc($cc, $extra_check = false){
 
 function retrieveOptions($product){
     $read = "";
-    foreach ($product as $oid => $details) {
-      $read .= "<option value='$oid'>{$details["Option"]}</option>";
+    foreach ($product as $OID => $Details) {
+      $read .= "<option value='$OID'>{$Details["Option"]}</option>";
     }
     return $read;
+  }
+function price($num1, $num2) {
+    $number = $num1 * $num2;
+    return number_format((float)$number, 2, '.', '');
   }
 
 function validateCC($cc_num, $type) {

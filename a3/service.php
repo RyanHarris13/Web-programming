@@ -25,16 +25,14 @@ $options = retrieveOptions($product[$ID]);
 <div class="Title">
     <h5><strong>$title</strong></h5>
 </div>
-<div class=''>
-    <p>$description</p>
-</div>
 <form action="cart.php" method="post">
-        <input type='hidden' name='title' value='$title'>
-        <input type="hidden" name='id' value="$ID">
-        <input type="hidden" name='price' value="$price">
-    
+    <p>$description</p>
+        <input type='hidden' name='Title' value='$title'>
+        <input type="hidden" name='ID' value="$ID">
+        <input type="hidden" name='Price' value="$price">
+        <p>Testing values: ID= $ID, Price= $price</p>
         <img src='../../media/$ID.jpg' alt='$title' />
-    
+        
         <p>Option: Cleaning type Time, level of cleaning detail and price go up the further down the list</p>
     <select id="option" name="OID" value="please select">
         $options

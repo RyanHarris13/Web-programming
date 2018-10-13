@@ -38,7 +38,7 @@ input[type=number]::-webkit-inner-spin-button {
         </form>
     </form>
 
-<!--<div class="exit">-->
+<!--<div class="return">-->
 
     <h3>Bond Return</h3>
     <form action="service.php?ID=--CL02" method="get">
@@ -52,15 +52,17 @@ input[type=number]::-webkit-inner-spin-button {
 
 
 
-<!--<div class="exit">-->
+<!--<div class="entry">-->
 
     <h3>Entry Clean</h3>
-    <p2>
-        You cant have tennants entering a new home with cobwebs and dust everywhere, this clean is aimed at properties that
-        have been purchaced and need a touch up before the tennants move in. This clean is a lighter clean to keep the house
-        highly presentable and comfortable for the new tennants.
-        <a href="service.php?ID=--CL03">More Info</a>
-    </p2>
+   <form action="service.php?ID=--CL03" method="get">
+        <img src='../../media/--CL03.jpg' alt='empty house picture' />
+        <p>$200.00</p>
+        <p2>
+            This cleaning service is directed at tennants that wish to get their bond returned.<a href="service.php?ID=--CL03">More Info</a>
+        </p2>
+
+    </form>
 
 
     <button class="open-button" onclick="openForm()">Open Form</button>
