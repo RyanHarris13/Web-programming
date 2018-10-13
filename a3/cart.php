@@ -7,9 +7,8 @@ styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
 if (isset($_POST['cancel'])) {
   unset($_SESSION['cart']);
-  header("Location: services.php");
+  header("Location: products.php");
 }
-
 
 if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
   // qty will always be positive due to a javascript that disables the button
@@ -46,7 +45,7 @@ preShow($_SESSION);
    
 
       <form action='checkout.php' method="post">
-         <p>Price: $$price</p>
+         <p>Price: '$$price'</p>
         <input type="hidden" name='id' value="$id">
         <input type="hidden" name='price' value="$price">
 
