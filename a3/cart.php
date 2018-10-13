@@ -53,11 +53,12 @@ $title = $_POST['Title'];
 </div>
 </div>
 MAIN;
+preShow($_POST);
+    preShow($_SESSION);
 ?>
 <?php
   endModule(); // Now a function call
-    preShow($_POST);
-    preShow($_SESSION);
+    
    printMyCode();
 ?>
 
