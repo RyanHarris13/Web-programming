@@ -36,10 +36,13 @@ $title = $_POST['Title'];
 ?>
 
 <?php
+preShow($_POST);
+preShow($_SESSION);
 echo "<div class='cart'>";
   echo "<h1>Your Cart</h1>";
 echo "</div>";
 echo "<form action='checkout.php' method='post'>";
+
   foreach ($_SESSION['cart'] as $item) {
 echo <<<"MAIN"
 <div class='row'>
@@ -67,6 +70,5 @@ echo "<p><input type='submit' name='cancel' value='Empty Cart'/> or <input type=
 </form>";
 ?>
 <?php endModule();
-preShow($_POST);
-preShow($_SESSION);
+printMyCode();
 ?>

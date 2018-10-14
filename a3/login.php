@@ -5,9 +5,13 @@
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Home');
      styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-   
+     
         ?>
 <h2>Login Page</h2>
+      <?php
+       preShow($_POST);
+        preShow($_SESSION);
+?>
 <div class="Login">
     <form action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php" method="post" target="_blank">
         <div class="imgcontainer">
@@ -35,6 +39,6 @@
 
     <img src='../../media/' alt='' />
 </article>
-<?php
-endModule();
+<?php endModule();
+printMyCode();
 ?>

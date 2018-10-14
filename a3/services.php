@@ -5,12 +5,18 @@
     include_once('tools.php');
     topModule('Exit and Bond cleaning- Services');
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
+      
     ?>
     <div class="hero-image">
     <div class="hero-text">
     </div>
     <h1>Our Services:</h1>
+         <?php
+       preShow($_POST);
+        preShow($_SESSION);
+?>
 </div>
+  
 <style>
     input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
@@ -102,9 +108,6 @@ input[type=number]::-webkit-inner-spin-button {
 
 </script>
 
-<?php
-  endModule(); // Now a function call
-    preShow($_POST);
-    preShow($_SESSION);
-   printMyCode();
+<?php endModule();
+printMyCode();
 ?>

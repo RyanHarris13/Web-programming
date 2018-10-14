@@ -6,16 +6,21 @@
     topModule('index');
    
     styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
-   
+ 
+        
         ?>
 
 
 <div class="hero-image">
     <div class="hero-text">
     </div>
+    
     <h1>Clean With Style </h1>
 </div>
-
+    <?php
+       preShow($_POST);
+        preShow($_SESSION);
+?>
 <div class="indexBackground">
 
     <h3>Our Background:</h3>

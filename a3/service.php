@@ -21,12 +21,18 @@ $description = $product[$ID]["FL"]["Description"];
 $options = retrieveOptions($product[$ID]);
     ?>
 <?php
+     
      echo <<<"MAIN"
 <div class="hero-image">
     <div class="hero-text">
     </div>
     <h1>$title</h1>
 </div>
+ <?php
+       preShow($_POST);
+        preShow($_SESSION);
+?>
+        
 <form action="cart.php" method="post" id = 'ItemDes'>
     <p>$description</p>
         <input type='hidden' name='Title' value='$title'>
@@ -90,7 +96,6 @@ MAIN;
 
 </script>
 
-<?php
-  endModule(); // Now a function call
-//printMyCode();
+<?php endModule();
+printMyCode();
 ?>

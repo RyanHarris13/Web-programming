@@ -29,6 +29,7 @@ function topModule($pageTitle) {
         </div>
       </nav>
       <main>
+      
 TOPMODULE;
     echo $output;
 } 
@@ -40,7 +41,7 @@ function endModule(){
         <br>
           <div>&copy;<script>
             document.write(new Date().getFullYear());
-          </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A2-s3719229-s3717184 68</div>
+          </script> By: Caleb McCash (s3717184) and Ryan Harris(s3719229). Group name: A3-s3719229-s3717184 68</div>
             
           <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
           <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>

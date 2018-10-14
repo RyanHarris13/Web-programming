@@ -8,7 +8,9 @@ styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
 if (isset($_POST['cancel'])) {
   unset($_SESSION['cart']);
+    unset($_SESSION['checkout']);
   header("Location: services.php");
+    exit();
 }
 $month = $year = "";
 
@@ -70,29 +72,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
     $year = test_input($_POST['year']);
     }
-    $date = "$month/$year";
+   
+  }
+ $date = "$month/$year";
     $_POST['date'] = $date;
-  }
 
-$fp = fopen("orders.txt", "a");
-for ($row = 0; $row < 3; $row++) {
-  for ($col = 0; $col < 11; $col++) {
+ 
 
-  }
+echo "order";
+
+$fp = fopen('orders.txt', 'a');
+  foreach ($_SESSION['cart'] as $item) {
+  $order = array("$date", "$name", "$address", "$phone", "$email", $item['ID'], $item['OID'], $item['qty'], $item['Price'], $item['subtotal'] );
 }
-
-$details = array($date, $name, $address, $phone, $email);
-$cart = array($_SESSION['cart']);
-$order = array_merge($details, $cart);
-
 fputcsv($fp, $order, "\t");
   fclose($fp);
+preShow($order);
 }
+
 ?>
 
 <div class='information'>
    
     <form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF"]);?>" method="post">
+         
         <p>Name: <input type="text" name="name" value='<?php echo $name;?>'><span class='error'> *
                 <?php echo $nameErr;?></span></p>
         <br>
@@ -142,6 +145,7 @@ fputcsv($fp, $order, "\t");
         </div>
         <br><br>
         <?php
+         echo "<input type='hidden' name='expDate' value='$expDate'>";
     echo "<input type='hidden' name='date' value='$date'>";
     ?>
         <input type="submit" id='submit' value="Confirm">
@@ -149,10 +153,7 @@ fputcsv($fp, $order, "\t");
     </form>
 </div>
 
-<?php endModule(); 
- 
-        preShow($_POST);
-        preShow($_SESSION);
-        echo "order";
-        preShow($order);
-        ?>
+
+ <?php endModule();
+printMyCode();
+?>
