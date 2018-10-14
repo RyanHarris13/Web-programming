@@ -230,6 +230,7 @@ form {
     align-items: center;
     align-self: center;
     text-align: center;
+    float: center;
 
 
 
@@ -414,7 +415,7 @@ p3 {
     position: relative;
     bottom: 0;
     background-color: #36558f;
-    width: 95%;
+    width: 100%;
     color: white;
     height: 80px;
     border-style: hidden;
