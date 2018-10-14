@@ -85,8 +85,8 @@ $details = array($date, $name, $address, $phone, $email);
 $cart = array($_SESSION['cart']);
 $order = array_merge($details, $cart);
 
-echo "order";
-preShow($order);
+
+
 
 
 fputcsv($fp, $order, "\t");
@@ -95,6 +95,7 @@ fputcsv($fp, $order, "\t");
 ?>
 
 <div class='information'>
+   
     <form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF"]);?>" method="post">
         <p>Name: <input type="text" name="name" value='<?php echo $name;?>'><span class='error'> *
                 <?php echo $nameErr;?></span></p>
@@ -151,6 +152,7 @@ fputcsv($fp, $order, "\t");
         <?php 
         preShow($_POST);
         preShow($_SESSION);
+        echo "order";
         preShow($order);
         ?>
     </form>
