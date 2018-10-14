@@ -31,8 +31,7 @@ $subtotal = price($_POST['qty'], $_POST['Price']);
 $title = $_POST['Title'];
 
 
-preShow($_POST);
-preShow($_SESSION);
+
 
 ?>
 
@@ -67,4 +66,7 @@ echo "<div class='right'>";
 echo "<p><input type='submit' name='cancel' value='Empty Cart'/> or <input type='submit' name='add' value='Go to Checkout'/></p>\n</div>\n
 </form>";
 ?>
-<?php endModule(); ?>
+<?php endModule();
+preShow($_POST);
+preShow($_SESSION);
+?>

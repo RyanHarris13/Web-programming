@@ -145,13 +145,14 @@ fputcsv($fp, $order, "\t");
     echo "<input type='hidden' name='date' value='$date'>";
     ?>
         <input type="submit" id='submit' value="Confirm">
-        <?php 
+       
+    </form>
+</div>
+
+<?php endModule(); 
+ 
         preShow($_POST);
         preShow($_SESSION);
         echo "order";
         preShow($order);
         ?>
-    </form>
-</div>
-
-<?php endModule(); ?>
