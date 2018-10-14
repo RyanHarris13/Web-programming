@@ -85,10 +85,6 @@ $details = array($date, $name, $address, $phone, $email);
 $cart = array($_SESSION['cart']);
 $order = array_merge($details, $cart);
 
-
-
-
-
 fputcsv($fp, $order, "\t");
   fclose($fp);
 }
