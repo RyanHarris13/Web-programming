@@ -5,9 +5,9 @@ ID	OID	Title	Description	Option	Price
 --CL01	Thru	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	100.00
 --CL01	Met	Exit-Clean	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	100.00
 --CL02	FL	Bond-Return	This cleaning service is directed at tennants that wish to get their bond returned, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	200.00
---CL02	Mod	Bond-Return	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	200.00
+--CL02	Mod	Bond-Return	This cleaning service is directed at tennants that wish to get their bond returned, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	200.00
 --CL02	Thru	Bond-Return	This cleaning service is directed at tennants that wish to get their bond returned, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	200.00
---CL03	Met	Bond-Return	This clean is for when tennants leave the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	200.00
+--CL02	Met	Bond-Return	This cleaning service is directed at tennants that wish to get their bond returned, a full oven + kitchen clean and all bedrooms / main rooms done	Meticulous	200.00
 --CL03	FL	Entry-Clean	This clean is for when tennants are entering the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Fast And Light	300.00
 --CL03	Mod	Entry-Clean	This clean is for when tennants are entering the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Moderate	300.00
 --CL03	Thru	Entry-Clean	This clean is for when tennants are entering the premise, includes full cleans of bathrooms, a full oven + kitchen clean and all bedrooms / main rooms done	Thorough	300.00
