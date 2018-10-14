@@ -221,7 +221,7 @@ h1 {
 }
 
 form {
-    scale: 75%;
+    width: 75;
     color: white;
     background-color: #6290c8;
     size: 20px;
