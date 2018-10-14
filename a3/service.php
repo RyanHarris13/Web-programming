@@ -32,7 +32,7 @@ $options = retrieveOptions($product[$ID]);
         <input type='hidden' name='Title' value='$title'>
         <input type="hidden" name='ID' value="$ID">
         <input type="hidden" name='Price' value="$price">
-        <p>Testing values: ID= '$ID', Price= '$$price'</p>
+        <p>Price= '$$price'</p>
         <img src='../../media/$ID.jpg' alt='$title' />
         
         <p>Option: Cleaning type Time, level of cleaning detail and price go up the further down the list</p>
