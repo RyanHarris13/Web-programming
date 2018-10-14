@@ -15,7 +15,8 @@
     </div>
     <h1>Clean With Style </h1>
 </div>
-<!--<div class="ColText1">-->
+
+<div class="indexBackground">
 
     <h3>Our Background:</h3>
     <p2>
@@ -25,16 +26,16 @@
         high value properties to exeptional standards throughout Melbourne.
     </p2>
 
-<!--</div>
+</div>
 
-<div class="ColText2">-->
+<div class="indexImage">
 
 <br>
     <img src='../../media/cleaning peeps.jpg' />
 
-<!--</div>
+</div>
 
-<div class="ColText3">-->
+<div class="indexFocus">
 
     <h3>Our focus:</h3>
     <p2>
@@ -44,7 +45,7 @@
         a perfect service so every customer gets exactly what they paid for.
     </p2>
 
-<!--</div>-->
+</div>
 
 <?php
   endModule(); // Now a function call
