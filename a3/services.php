@@ -55,7 +55,7 @@ input[type=number]::-webkit-inner-spin-button {
         <img src='../../media/--CL03.jpg' alt='empty house picture' />
         <p>$ 300.00</p>
         <p2>
-            This cleaning service is directed at tennants that wish to get their bond returned.<a href="service.php?ID=--CL03">More Info</a>
+            This cleaning service is to clean the empty properties before a tennant moves in.<a href="service.php?ID=--CL03">More Info</a>
         </p2>
 
     </form>
