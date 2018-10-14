@@ -411,6 +411,15 @@ p3 {
 
 }
 
+p3 { 
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+
+    background-color: white;
+
+}
+
 
 .bot {
 
