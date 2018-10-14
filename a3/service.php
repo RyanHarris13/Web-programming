@@ -48,6 +48,7 @@ $options = retrieveOptions($product[$ID]);
         <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
         <br>
     </div>
+    <input type="text" name="amount_$i" id="amount_$i"  readonly value='$price'>
    <input id='submit' type="submit" name="add" value="Add to Cart" disabled>
 
 
@@ -85,9 +86,21 @@ MAIN;
             document.getElementById('submit').disabled = false;
         }
     }
-    function myPriceChange(){
-       
-    }
+    function update(iteration){
+    
+    // alert(iteration);
+    
+    var quantity = document.getElementById('quantity_' + iteration).value;
+    // alert('quantity_' + iteration);
+
+    var price = document.getElementById('price_' + iteration).value;
+    price = parseInt(price);
+    quantity = parseInt(quantity);
+
+    var amount= quantity * price ;
+
+    document.getElementById('amount_' + iteration).value = amount;
+}
 
 </script>
 
