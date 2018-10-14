@@ -7,7 +7,7 @@ styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
 if (isset($_POST['cancel'])) {
   unset($_SESSION['cart']);
-  header("Location: products.php");
+  header("Location: services.php");
 }
 
 if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
@@ -22,15 +22,15 @@ if (isset($_POST["add"], $_POST['ID'], $_POST['qty'], $_POST['OID'])) {
   echo "<p>Invalid order, item is not added to cart</p>";
 }
 
-$price = $_POST['Price'];
+$price = price($_POST['qty'], $_POST['Price']);
 $title = $_POST['Title'];
 
-
+preShow($_POST);
+preShow($_SESSION);
 ?>
 
 <?php
-preShow($_POST);
-preShow($_SESSION);
+
   echo <<<"MAIN"
 <div class='cart'>
   <h1>Your Cart:</h1>

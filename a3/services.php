@@ -53,7 +53,7 @@ input[type=number]::-webkit-inner-spin-button {
     <h3>Entry Clean</h3>
    <form action="service.php?ID=--CL03" method="get">
         <img src='../../media/--CL03.jpg' alt='empty house picture' />
-        <p>$200.00</p>
+        <p>$ 300.00</p>
         <p2>
             This cleaning service is directed at tennants that wish to get their bond returned.<a href="service.php?ID=--CL03">More Info</a>
         </p2>
