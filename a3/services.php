@@ -60,12 +60,47 @@ input[type=number]::-webkit-inner-spin-button {
 
     </form>
 
+<script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
 
-    <button class="open-button" onclick="openForm()">Open Form</button>
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
 
-    
+    function myAdd() {
+        var num = document.getElementById("qty");
+        var int = num.value;
+        int++;
+        num.value = int;
+        if (document.getElementById('qty').value == "0") {
+            document.getElementById('submit').isValue = false;
+        } else {
+            document.getElementById('submit').isValue = true;
+        }
+    }
 
+    function mySubtract() {
+        var num = document.getElementById("qty");
+        var int = num.value;
+        if (int > 0) {
+            int--;
+            num.value = int;
+        } else {
+            num.value = 0;
+        }
+    }
 
+    function myZero() {
+        if (document.getElementById('qty').value == 0) {
+            document.getElementById('submit').disabled = true;
+        } else {
+            document.getElementById('submit').disabled = false;
+        }
+    }
+
+</script>
 
 <?php
   endModule(); // Now a function call
