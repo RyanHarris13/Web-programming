@@ -20,9 +20,13 @@ function topModule($pageTitle) {
           Exit and Bond Cleaning
         </h1>
           <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="services.php" >Services and Pricing</a></li>
            <li><a href="login.php" >Members login</a></li>
-            <li><a href="services.php" >Services and Pricing</a></li>
-            <li><a href="index.php">Home</a></li>
+            
+            
+            <li><a href= "cart.php">My Cart</a></li>
+            <li><a href="login.php" >Members login</a></li>
           </ul>
         </div>
       </nav>
