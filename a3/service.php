@@ -27,7 +27,7 @@ $options = retrieveOptions($product[$ID]);
     </div>
     <h1>$title</h1>
 </div>
-<form action="cart.php" method="post">
+<form action="cart.php" method="post" id = 'ItemDes'>
     <p>$description</p>
         <input type='hidden' name='Title' value='$title'>
         <input type="hidden" name='ID' value="$ID">
@@ -43,12 +43,12 @@ $options = retrieveOptions($product[$ID]);
         
         <p>Quantity picker Form for rooms</p>
     <div class="quantity">
-        <button class='subtract' type='button' name='button' onclick="mySubtract();myZero();">-</button>
+        <button class='subtract' type='button' name='button' id='subtract'  onclick="mySubtract();myZero();">-</button>
         <input class='number' id='qty' type='text' name='qty' value='0'>
-        <button class='plus' onchange='myZero()' type='button' name='button' onclick="myAdd();myZero();">+</button>
+        <button class='plus' onchange='myZero()' type='button' name='button id='add' onclick="myAdd();myZero();">+</button>
         <br>
     </div>
-    <input type="text" name="amount_$i" id="amount_$i"  readonly value='$price'>
+
    <input id='submit' type="submit" name="add" value="Add to Cart" disabled>
 
 
@@ -86,21 +86,7 @@ MAIN;
             document.getElementById('submit').disabled = false;
         }
     }
-    function update(iteration){
     
-    // alert(iteration);
-    
-    var quantity = document.getElementById('quantity_' + iteration).value;
-    // alert('quantity_' + iteration);
-
-    var price = document.getElementById('price_' + iteration).value;
-    price = parseInt(price);
-    quantity = parseInt(quantity);
-
-    var amount= quantity * price ;
-
-    document.getElementById('amount_' + iteration).value = amount;
-}
 
 </script>
 

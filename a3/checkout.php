@@ -5,8 +5,6 @@ topModule("checkout");
 styleCurrentNavLink('background-color: rgba(255,255,255,0.6);');
 
 
-preShow($_POST);
-preShow($_SESSION);
 
 if (isset($_POST['cancel'])) {
   unset($_SESSION['cart']);
@@ -87,18 +85,17 @@ $details = array($date, $name, $address, $phone, $email);
 $cart = array($_SESSION['cart']);
 $order = array_merge($details, $cart);
 
-echo "order";
-preShow($order);
 
-  /*foreach ($_SESSION['cart'] as $item) {
-  $order = array("$date", "$name", "$address", "$phone", "$email", $item['id'], $item['oid'], $item['qty'], $item['price'], $item['subtotal'] );
-}*/
+
+
+
 fputcsv($fp, $order, "\t");
   fclose($fp);
 }
 ?>
 
 <div class='information'>
+   
     <form action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF"]);?>" method="post">
         <p>Name: <input type="text" name="name" value='<?php echo $name;?>'><span class='error'> *
                 <?php echo $nameErr;?></span></p>
@@ -152,6 +149,12 @@ fputcsv($fp, $order, "\t");
     echo "<input type='hidden' name='date' value='$date'>";
     ?>
         <input type="submit" id='submit' value="Confirm">
+        <?php 
+        preShow($_POST);
+        preShow($_SESSION);
+        echo "order";
+        preShow($order);
+        ?>
     </form>
 </div>
 
