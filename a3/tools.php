@@ -21,9 +21,7 @@ function topModule($pageTitle) {
         </h1>
           <ul>
           <li><a href="index.php">Home</a></li>
-          <li><a href="services.php" >Services and Pricing</a></li>
-           <li><a href="login.php" >Members login</a></li>
-            
+          <li><a href="services.php" >Services and Pricing</a></li>      
             
             <li><a href= "cart.php">My Cart</a></li>
             <li><a href="login.php" >Members login</a></li>
@@ -137,52 +135,54 @@ function price($num1, $num2) {
   }
 ?>
 <script>
-function validateCC($cc_num, $type) {
+    function validateCC($cc_num, $type) {
 
-    if($type == "Card") {
-    $denum = "Card";
-    } elseif($type == "Visa") {
-    $denum = "Visa";
-    }
+        if ($type == "Card") {
+            $denum = "Card";
+        }
+        elseif($type == "Visa") {
+            $denum = "Visa";
+        }
 
-    if($type == "Card") {
-    $pattern = "";//ANY CARD REGEX NEEDED
-    if (preg_match($pattern,$cc_num)) {
-    $verified = true;
-    } else {
-    $verified = false;
-    }
+        if ($type == "Card") {
+            $pattern = ""; //ANY CARD REGEX NEEDED
+            if (preg_match($pattern, $cc_num)) {
+                $verified = true;
+            } else {
+                $verified = false;
+            }
 
-    } elseif($type == "Visa") {
-    $pattern = "/^([4]{1})([0-9]{12,15})$/";//Visa
-    if (preg_match($pattern,$cc_num)) {
-    $verified = true;
-    echo "THIS IS A VISA CARD";
-    //"MAKE VISA ICON APPEAR HERE"
-    } else {
-    $verified = false;
-    }
-    }
+        }
+        elseif($type == "Visa") {
+            $pattern = "/^([4]{1})([0-9]{12,15})$/"; //Visa
+            if (preg_match($pattern, $cc_num)) {
+                $verified = true;
+                echo "THIS IS A VISA CARD";
+                //"MAKE VISA ICON APPEAR HERE"
+            } else {
+                $verified = false;
+            }
+        }
 
-    if($verified == false) {
-    //Do something when the stupid user inevitably decides to mash the keyboard
-    echo "Credit card invalid. Please make sure that you entered a valid <em>" . $denum . "</em> credit card ";
-    } else { 
-    // ANY OTHER STUFF WHEN VALIDATION DOES THE DO
-    }
-    $creditDate=date_create("USER INPUTTED CREDIT CARD DATE IDK HOW TO LINK PHP TO THE BOX");
-    $today = new DateTime();
-    $diff=date_diff($creditDate,today)
-    
-    if($diff < "WHATEVER BOX WE HAVE THE CREDIT CARD IN") { // I have no clue how to link it to a box
-        // DISPLAY MESSAGE SAYING SOMETHING ABOUT BLAH BLAH CANT EXPIRE WITHIN A MONTH IDK HOW
-    
-    }
-    
-    
+        if ($verified == false) {
+            //Do something when the stupid user inevitably decides to mash the keyboard
+            echo "Credit card invalid. Please make sure that you entered a valid <em>".$denum.
+            "</em> credit card ";
+        } else {
+            // ANY OTHER STUFF WHEN VALIDATION DOES THE DO
+        }
+        $creditDate = date_create("USER INPUTTED CREDIT CARD DATE IDK HOW TO LINK PHP TO THE BOX");
+        $today = new DateTime();
+        $diff = date_diff($creditDate, today)
 
-}  
+        if ($diff < "WHATEVER BOX WE HAVE THE CREDIT CARD IN") { // I have no clue how to link it to a box
+            // DISPLAY MESSAGE SAYING SOMETHING ABOUT BLAH BLAH CANT EXPIRE WITHIN A MONTH IDK HOW
 
+        }
+
+
+
+    }
 
 
 </script>
